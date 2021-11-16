@@ -32,29 +32,89 @@ body {
   .nav-link {
     margin-right: 6px;
   }
+  #coffee {
+    margin-top: -19px;
+  }
   #coffee p {
     text-align: center;
     padding-right: 0;
   }
 
   /*Home*/
+  .image-bg {
+    height: 25vh;
+  }
   .box-home p {
-    font-size: 28px;
+    font-size: 18px;
     position: absolute;
-    top: 160px;
+    top: 137px;
     left: 2%;
     text-align: center;
   }
   .box-text {
-    left: 114px;
+    left: 68px;
     text-align: center;
-    top: 9.5em;
-    font-size: 28px;
+    top: 4.2em;
+    height: 19px;
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  @keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    15% {
+      margin-top: -18px;
+    }
+    25% {
+      margin-top: -18px;
+    }
+    35% {
+      margin-top: -36px;
+    }
+    45% {
+      margin-top: -36px;
+    }
+    50% {
+      margin-top: -54px;
+    }
+    60% {
+      margin-top: -54px;
+    }
+    70% {
+      margin-top: -36px;
+    }
+    80% {
+      margin-top: -36px;
+    }
+    90% {
+      margin-top: -18px;
+    }
+    95% {
+      margin-top: -18px;
+    }
+    100% {
+      margin-top: 0;
+    }
   }
 
   /*Quienes Somos*/
+  .title-quienes-somos {
+    font-size: 2.5em;
+    margin-top: 1em;
+  }
+  .text-quienes-somos {
+    margin-bottom: 4em;
+  }
+  .box-txt {
+    padding: 0 2em;
+  }
   .margin-container-home {
-    margin-top: -49em;
+    margin-top: 0em;
   }
   .margin-container-home {
     padding: 0 15px;
@@ -64,9 +124,37 @@ body {
   }
 
   /*Row Conocenos*/
+  %module {
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+  }
+  .bg-conocenos {
+    padding: 0;
+    @extend %module;
+  }
   .bg-conocenos p {
-    font-size: 28px;
-    padding: 2.3em;
+    font-size: 22px;
+    margin: auto;
+  }
+  .align {
+    margin: auto;
+  }
+  /*En que nos destacamos*/
+  .box-highlight h1 {
+    width: auto;
+    font-size: 2em;
+  }
+  /*Row Business*/
+  .bg-business {
+    @extend %module;
+    margin-top: 5em;
+    font-size: 7px;
+    padding: 47px 0;
+  }
+  .bg-business p {
+    margin-top: 0.5em;
+    font-size: 16px;
   }
 
   /*Footer*/
@@ -80,7 +168,7 @@ body {
     padding: 4em 5em 0em 5em;
   }
   .box-country-footer {
-    margin-top: 3em;
+    margin-top: 2em;
     flex-direction: column;
   }
   .country {
