@@ -1,0 +1,43 @@
+$colour-text-orange: #f76809;
+$colour-text-light-orange: #ff9c3c;
+$colour-text-white: white;
+$colour-text-blue: #00349b;
+$colour-text-green: #1cceb8;
+$colour-text-red: #ff0000;
+$colour-text-black: black;
+$colour-text-grey: #707070;
+
+@mixin big-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: left;
+  color: $colour-text-white;
+}
+
+@mixin img-top {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+}
+
+@mixin font-title {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+@mixin img-long {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 500px;
+}
+
+@mixin text-banner {
+  color: $colour-text-white;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  padding: 3.7em 0;
+}

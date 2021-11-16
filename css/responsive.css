@@ -1,0 +1,91 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #828282;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+/*Book a coffee*/
+@media screen and (max-width: 570px) {
+  /*Navbar*/
+  .navbar-nav {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+  }
+  .dropdown-toggle {
+    text-align: end;
+  }
+  .dropdown-menu {
+    text-align: end;
+  }
+  .nav-link {
+    margin-right: 6px;
+  }
+  #coffee p {
+    text-align: center;
+    padding-right: 0;
+  }
+  /*Home*/
+  .box-home p {
+    font-size: 28px;
+    position: absolute;
+    top: 160px;
+    left: 2%;
+    text-align: center;
+  }
+  .box-text {
+    left: 114px;
+    text-align: center;
+    top: 9.5em;
+    font-size: 28px;
+  }
+  /*Quienes Somos*/
+  .margin-container-home {
+    margin-top: -49em;
+  }
+  .margin-container-home {
+    padding: 0 15px;
+  }
+  .img-picture-home {
+    margin-top: 2em;
+  }
+  /*Row Conocenos*/
+  .bg-conocenos p {
+    font-size: 28px;
+    padding: 2.3em;
+  }
+  /*Footer*/
+  .ig-profile-image {
+    width: 50%;
+  }
+  .text-contact {
+    margin-top: 1em;
+  }
+  .row-pd-footer {
+    padding: 4em 5em 0em 5em;
+  }
+  .box-country-footer {
+    margin-top: 3em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .country {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 983px) {
+  .navbar-brand {
+    display: none;
+  }
+}
