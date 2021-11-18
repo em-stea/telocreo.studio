@@ -42,6 +42,9 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand-visible d-md-none" href="index.html">
+          <img src="img/telocreo-logo.svg" alt="logo Telocreo" width="62" height="48">
+        </a>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
               <li class="nav-item dropdown">
@@ -56,16 +59,23 @@
                   </ul>
                 </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Testea tu negocio</a>
+              <a class="nav-link" href="test-page.html">Testea tu negocio</a>
             </li>
             <a class="navbar-brand" href="#">
               <img src="img/telocreo-logo.svg" alt="logo Telocreo" width="62" height="48">
             </a>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Conócenos</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Conócenos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Acerca de nosotros</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Trabajos Realizados</a></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Freeblioteca</a>
+              <a class="nav-link" href="freeblioteca-page.html">Freeblioteca</a>
             </li>
           </ul>
         </div>
@@ -86,7 +96,7 @@
 
   <!--Rotadores-->
   <section class="container-fluid image-bg">
-    <div class="box-home">
+    <div class="box-home animate__animated animate__fadeIn animate__slow">
       <p>Te ayudamos a potenciar tu</p>
       <div class="box-text">
         <ul>
@@ -106,14 +116,16 @@
         <h1 class="title-quienes-somos">QUIÉNES 
         <br>  
         SOMOS</h1>
-        <p>El partner que tu empresa necesita. 
-        <br> 
-        Una agencia de marketing digital <strong>creativamente analítica.</strong></p>
-        <br>
-        El mix que estás buscando entre: 
-        <p><span class="typed"></span></p>
+        <div data-aos="fade-up">
+          <p>El partner que tu empresa necesita. 
+            <br> 
+            Una agencia de marketing digital <strong>creativamente analítica.</strong></p>
+            <br>
+            El mix que estás buscando entre: 
+            <p><span class="typed"></span></p>
+        </div>
       </div>
-      <div class="col-12 col-md-6 text-center">
+      <div class="col-12 col-md-6 text-center" data-aos="fade-up">
         <img src="img/picture-home.png" class="img-fluid img-picture-home" alt="Responsive image collage dada">
       </div>
     </div>
@@ -121,7 +133,7 @@
     
   <!--Row Conocenos-->
   <div class="container-fluid">
-    <div class="row bg-conocenos" data-aos="fade-up" data-aos-duration="300">
+    <div class="row bg-conocenos mt-5" data-aos="fade-up" data-aos-duration="300">
       <p>CONÓCENOS</p>
     </div>
   </div>
@@ -209,7 +221,7 @@
       <div class="contact-icons col-12 col-md-4">
         <p class="mb-3 text-contact">Contacto</p>
         <p class="mb-2">Empecemos ahora, ¡Hablemos!</p>
-        <a href="#">
+        <a href="mailto:hola@telocreo.studio">
           <i class="icon-envelope"></i>
           hola@telocreo.studio
         </a>

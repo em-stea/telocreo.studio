@@ -1,3 +1,5 @@
+/*Img top responsive*/
+/*Img long responsive*/
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -12,11 +14,33 @@ body {
   font-weight: 300;
 }
 
+@media screen and (max-width: 425px) {
+  /*Home*/
+  .box-text {
+    left: 31px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 500px) {
+  /*Home*/
+  .box-text {
+    left: 40px;
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  /*Home*/
+  .box-text {
+    left: 85px;
+  }
+}
+
 @media screen and (max-width: 570px) {
   /*Navbar*/
   .navbar {
     position: fixed;
     background-color: white;
+    padding: 14px 0;
   }
   .navbar-nav {
     -webkit-box-align: start;
@@ -35,7 +59,10 @@ body {
     margin-right: 6px;
   }
   #coffee {
-    margin-top: -19px;
+    margin-top: -7px;
+  }
+  #coffee a {
+    padding: 20px 0;
   }
   #coffee p {
     text-align: center;
@@ -43,22 +70,24 @@ body {
   }
   /*Home*/
   .image-bg {
-    height: 25vh;
+    background-size: cover;
+    background-position: top center;
+    height: 65vh;
+    margin-bottom: 3em;
   }
   .box-home p {
-    font-size: 18px;
+    font-size: 33px;
     position: absolute;
-    top: 137px;
-    left: 2%;
+    top: 390px;
     text-align: center;
+    padding: 0 30px;
   }
   .box-text {
-    left: 68px;
     text-align: center;
-    top: 4.2em;
-    height: 19px;
-    font-size: 18px;
-    line-height: 18px;
+    top: 9.3em;
+    height: 31px;
+    font-size: 30px;
+    line-height: 30px;
   }
   @-webkit-keyframes rotator-text {
     0% {
@@ -68,34 +97,34 @@ body {
       margin-top: 0;
     }
     15% {
-      margin-top: -18px;
+      margin-top: -30px;
     }
     25% {
-      margin-top: -18px;
+      margin-top: -30px;
     }
     35% {
-      margin-top: -36px;
+      margin-top: -60px;
     }
     45% {
-      margin-top: -36px;
+      margin-top: -60px;
     }
     50% {
-      margin-top: -54px;
+      margin-top: -90px;
     }
     60% {
-      margin-top: -54px;
+      margin-top: -90px;
     }
     70% {
-      margin-top: -36px;
+      margin-top: -60px;
     }
     80% {
-      margin-top: -36px;
+      margin-top: -60px;
     }
     90% {
-      margin-top: -18px;
+      margin-top: -30px;
     }
     95% {
-      margin-top: -18px;
+      margin-top: -30px;
     }
     100% {
       margin-top: 0;
@@ -109,34 +138,34 @@ body {
       margin-top: 0;
     }
     15% {
-      margin-top: -18px;
+      margin-top: -30px;
     }
     25% {
-      margin-top: -18px;
+      margin-top: -30px;
     }
     35% {
-      margin-top: -36px;
+      margin-top: -60px;
     }
     45% {
-      margin-top: -36px;
+      margin-top: -60px;
     }
     50% {
-      margin-top: -54px;
+      margin-top: -90px;
     }
     60% {
-      margin-top: -54px;
+      margin-top: -90px;
     }
     70% {
-      margin-top: -36px;
+      margin-top: -60px;
     }
     80% {
-      margin-top: -36px;
+      margin-top: -60px;
     }
     90% {
-      margin-top: -18px;
+      margin-top: -30px;
     }
     95% {
-      margin-top: -18px;
+      margin-top: -30px;
     }
     100% {
       margin-top: 0;
@@ -163,13 +192,11 @@ body {
     margin-top: 2em;
   }
   /*Row Conocenos*/
-  .bg-conocenos, .bg-business {
+  .bg-conocenos {
+    padding: 0;
     height: 160px;
     background-size: cover;
     background-position: center;
-  }
-  .bg-conocenos {
-    padding: 0;
   }
   .bg-conocenos p {
     font-size: 22px;
@@ -185,6 +212,9 @@ body {
   }
   /*Row Business*/
   .bg-business {
+    height: 160px;
+    background-size: cover;
+    background-position: center;
     margin-top: 5em;
     font-size: 7px;
     padding: 47px 0;
@@ -192,6 +222,61 @@ body {
   .bg-business p {
     margin-top: 0.5em;
     font-size: 16px;
+  }
+  .image-bg-03 {
+    background-size: cover;
+    background-position: top center;
+    height: 65vh;
+    margin-bottom: 3em;
+  }
+  .box-test {
+    font-size: 48px;
+    padding-top: 3.5em;
+  }
+  .picture-test {
+    padding-right: 0;
+  }
+  .contenedor-form {
+    width: 90%;
+    margin: auto;
+  }
+  .image-bg-04 {
+    background-size: cover;
+    background-position: top center;
+    height: 65vh;
+    margin-bottom: 3em;
+  }
+  .box-test-2 {
+    font-size: 48px;
+    padding-top: 4em;
+  }
+  .padding-left {
+    padding: 0 2em;
+  }
+  .box-img-freeblioteca {
+    text-align: center;
+    margin-top: 4em;
+  }
+  .bg-download {
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+    padding: 2em 0 2.6em 0 !important;
+  }
+  .bg-download p {
+    font-size: 22px;
+    margin: auto;
+  }
+  .padding-freeblioteca-left,
+  .padding-freeblioteca-right {
+    padding-left: 6em;
+    padding-right: 3em;
+  }
+  .padding-freeblioteca-left {
+    margin-bottom: 5em;
+  }
+  .btn-download {
+    width: 50%;
   }
   /*Footer*/
   .ig-profile-image {
@@ -212,6 +297,228 @@ body {
   }
   .country {
     margin-top: 1em;
+  }
+  /*Social-Bar*/
+  .social-bar {
+    top: 50%;
+  }
+}
+
+@media screen and (min-width: 571px) and (max-width: 1200px) {
+  /*Home*/
+  .image-bg {
+    background-size: cover;
+    background-position: top center;
+    height: 65vh;
+    margin-bottom: 3em;
+  }
+  .box-home p {
+    font-size: 33px;
+    position: absolute;
+    top: 520px;
+    text-align: center;
+    padding: 0 30px;
+  }
+  .box-text {
+    left: 190px;
+    text-align: center;
+    top: 10em;
+    height: 31px;
+    font-size: 30px;
+    line-height: 30px;
+  }
+  @-webkit-keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    15% {
+      margin-top: -30px;
+    }
+    25% {
+      margin-top: -30px;
+    }
+    35% {
+      margin-top: -60px;
+    }
+    45% {
+      margin-top: -60px;
+    }
+    50% {
+      margin-top: -90px;
+    }
+    60% {
+      margin-top: -90px;
+    }
+    70% {
+      margin-top: -60px;
+    }
+    80% {
+      margin-top: -60px;
+    }
+    90% {
+      margin-top: -30px;
+    }
+    95% {
+      margin-top: -30px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  @keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    15% {
+      margin-top: -30px;
+    }
+    25% {
+      margin-top: -30px;
+    }
+    35% {
+      margin-top: -60px;
+    }
+    45% {
+      margin-top: -60px;
+    }
+    50% {
+      margin-top: -90px;
+    }
+    60% {
+      margin-top: -90px;
+    }
+    70% {
+      margin-top: -60px;
+    }
+    80% {
+      margin-top: -60px;
+    }
+    90% {
+      margin-top: -30px;
+    }
+    95% {
+      margin-top: -30px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  /*Social-Bar*/
+  .social-bar {
+    top: 50%;
+  }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  /*Home*/
+  .image-bg {
+    background-size: cover;
+    background-position: top center;
+    height: 65vh;
+    margin-bottom: 3em;
+  }
+  .box-home p {
+    font-size: 52px;
+    position: absolute;
+    top: 452px;
+    text-align: center;
+    padding: 0 30px;
+  }
+  .box-text {
+    left: 350px;
+    text-align: center;
+    top: 6em;
+    height: 53px;
+    font-size: 52px;
+    line-height: 52px;
+  }
+  @-webkit-keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    15% {
+      margin-top: -52px;
+    }
+    25% {
+      margin-top: -52px;
+    }
+    35% {
+      margin-top: -104px;
+    }
+    45% {
+      margin-top: -104px;
+    }
+    50% {
+      margin-top: -156px;
+    }
+    60% {
+      margin-top: -156px;
+    }
+    70% {
+      margin-top: -104px;
+    }
+    80% {
+      margin-top: -104px;
+    }
+    90% {
+      margin-top: -52px;
+    }
+    95% {
+      margin-top: -52px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  @keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    15% {
+      margin-top: -52px;
+    }
+    25% {
+      margin-top: -52px;
+    }
+    35% {
+      margin-top: -104px;
+    }
+    45% {
+      margin-top: -104px;
+    }
+    50% {
+      margin-top: -156px;
+    }
+    60% {
+      margin-top: -156px;
+    }
+    70% {
+      margin-top: -104px;
+    }
+    80% {
+      margin-top: -104px;
+    }
+    90% {
+      margin-top: -52px;
+    }
+    95% {
+      margin-top: -52px;
+    }
+    100% {
+      margin-top: 0;
+    }
   }
 }
 

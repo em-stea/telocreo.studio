@@ -27,6 +27,8 @@ body {
   margin-top: 4.7em;
 }
 
+///index.html///
+
 /*Navbar*/
 .navbar {
   box-shadow: 2px 2px 18px -6px rgba(0, 0, 0, 0.2);
@@ -106,8 +108,6 @@ body {
 }
 %module {
   height: 59px;
-  font-size: 60px;
-  font-weight: 700;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -123,7 +123,7 @@ body {
   @extend %module;
   line-height: 60px;
   display: flex;
-  left: 360px;
+  left: 420px;
   top: 4.5em;
   overflow: hidden;
 }
@@ -355,7 +355,7 @@ footer {
 .social-bar {
   position: fixed;
   right: 0;
-  top: 35%;
+  top: 45%;
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -390,4 +390,153 @@ footer {
   padding-right: 3rem;
   border-radius: 1rem 0 0 1rem;
   box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
+
+///coffee-page.html///
+.image-bg-02 {
+  background-image: url(../img/bg-02.png);
+  @include img-top;
+}
+%module-padding {
+  padding: 2.5em 0em 0em 1em;
+}
+%module-padding-one-line {
+  padding: 3.5em 0em 0em 1em;
+}
+
+.box-coffee {
+  position: relative;
+  @include big-text;
+  @extend %module-padding;
+}
+.box-coffee .agency-text {
+  color: $colour-text-blue;
+}
+.box-text-align {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.box-text-align h1 {
+  @include font-title;
+}
+.title-coffee {
+  color: $colour-text-orange;
+}
+.box-text-align h1 span {
+  color: $colour-text-blue;
+}
+.text-green {
+  font-weight: 800;
+  color: $colour-text-green;
+}
+.picture-coffee {
+  width: 40%;
+}
+
+///Test-page.html///
+.image-bg-03 {
+  background-image: url(../img/bg-03.png);
+  @include img-top;
+}
+.box-test {
+  @include big-text;
+  @extend %module-padding;
+}
+.first-title {
+  color: $colour-text-blue;
+}
+.second-title {
+  color: $colour-text-green;
+}
+.text-grey {
+  color: $colour-text-grey;
+  font-weight: 800;
+}
+.picture-test {
+  width: 65%;
+  padding-right: 2em;
+}
+.contenedor-form {
+  margin: auto 0;
+  box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  padding: 2em;
+  width: 35%;
+}
+.form-control {
+  font-size: 12px;
+}
+.contenedor-boton {
+  text-align: center;
+}
+.btn-send {
+  background-color: $colour-text-yellow;
+  font-weight: 700;
+  color: $colour-text-grey;
+  width: 100%;
+}
+
+///Freeblioteca.html///
+.image-bg-04 {
+  background-image: url(../img/bg-04.png);
+  @include img-top;
+}
+.box-test-2 {
+  @include big-text;
+  @extend %module-padding-one-line;
+}
+.text-red {
+  color: $colour-text-red !important;
+}
+.box-text-align-left {
+  text-align: left;
+}
+.picture-freeblioteca {
+  width: 40%;
+}
+.padding-left {
+  padding-left: 9em;
+}
+.bg-download {
+  background-image: url(../img/bg-slider-03.jpg);
+  @include img-long;
+  margin-bottom: 1em;
+  @include text-banner;
+  padding: 3.2em !important;
+}
+.bg-download p {
+  color: $colour-text-blue;
+}
+.icon-descarga {
+  color: $colour-text-green;
+  font-size: 3em;
+}
+.icon-descarga:hover {
+  color: $colour-text-yellow;
+}
+.title-download {
+  color: $colour-text-red;
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 1em;
+}
+.btn-download {
+  background-color: $colour-text-blue;
+  color: $colour-text-white;
+  font-size: 18px;
+  font-weight: 700;
+  width: 40%;
+  height: 50px;
+  margin-top: 1em;
+  border-radius: 25px;
+}
+.padding-freeblioteca-left {
+  padding-left: 10em;
+  padding-right: 2em;
+}
+.padding-freeblioteca-right {
+  padding-right: 10em;
+}
+.box-download {
+  margin-bottom: 7em;
 }

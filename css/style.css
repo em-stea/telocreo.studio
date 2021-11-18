@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+/*Img top responsive*/
 @font-face {
   font-family: "icomoon";
   src: url("../fonts/icomoon/icomoon.eot?koe9is");
@@ -122,16 +123,14 @@ body {
 .box-home {
   position: relative;
   font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 60px;
+  font-weight: 700;
   text-align: left;
   color: white;
 }
 
 .box-home p, .box-text {
   height: 59px;
-  font-size: 60px;
-  font-weight: 700;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -149,7 +148,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  left: 360px;
+  left: 420px;
   top: 4.5em;
   overflow: hidden;
 }
@@ -477,7 +476,7 @@ footer {
 .social-bar {
   position: fixed;
   right: 0;
-  top: 35%;
+  top: 45%;
   font-size: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -529,4 +528,209 @@ footer {
   border-radius: 1rem 0 0 1rem;
   -webkit-box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
           box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42);
+}
+
+.image-bg-02 {
+  background-image: url(../img/bg-02.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+}
+
+.box-coffee, .box-test {
+  padding: 2.5em 0em 0em 1em;
+}
+
+.box-test-2 {
+  padding: 3.5em 0em 0em 1em;
+}
+
+.box-coffee {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+}
+
+.box-coffee .agency-text {
+  color: #00349b;
+}
+
+.box-text-align {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.box-text-align h1 {
+  font-size: 3em;
+  font-weight: 800;
+}
+
+.title-coffee {
+  color: #f76809;
+}
+
+.box-text-align h1 span {
+  color: #00349b;
+}
+
+.text-green {
+  font-weight: 800;
+  color: #1cceb8;
+}
+
+.picture-coffee {
+  width: 40%;
+}
+
+.image-bg-03 {
+  background-image: url(../img/bg-03.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+}
+
+.box-test {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+}
+
+.first-title {
+  color: #00349b;
+}
+
+.second-title {
+  color: #1cceb8;
+}
+
+.text-grey {
+  color: #707070;
+  font-weight: 800;
+}
+
+.picture-test {
+  width: 65%;
+  padding-right: 2em;
+}
+
+.contenedor-form {
+  margin: auto 0;
+  -webkit-box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 18px;
+  padding: 2em;
+  width: 35%;
+}
+
+.form-control {
+  font-size: 12px;
+}
+
+.contenedor-boton {
+  text-align: center;
+}
+
+.btn-send {
+  background-color: #f8d81b;
+  font-weight: 700;
+  color: #707070;
+  width: 100%;
+}
+
+.image-bg-04 {
+  background-image: url(../img/bg-04.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+}
+
+.box-test-2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+}
+
+.text-red {
+  color: #ff0000 !important;
+}
+
+.box-text-align-left {
+  text-align: left;
+}
+
+.picture-freeblioteca {
+  width: 40%;
+}
+
+.padding-left {
+  padding-left: 9em;
+}
+
+.bg-download {
+  background-image: url(../img/bg-slider-03.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 500px;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+  padding: 3.7em 0;
+  padding: 3.2em !important;
+}
+
+.bg-download p {
+  color: #00349b;
+}
+
+.icon-descarga {
+  color: #1cceb8;
+  font-size: 3em;
+}
+
+.icon-descarga:hover {
+  color: #f8d81b;
+}
+
+.title-download {
+  color: #ff0000;
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 1em;
+}
+
+.btn-download {
+  background-color: #00349b;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  width: 40%;
+  height: 50px;
+  margin-top: 1em;
+  border-radius: 25px;
+}
+
+.padding-freeblioteca-left {
+  padding-left: 10em;
+  padding-right: 2em;
+}
+
+.padding-freeblioteca-right {
+  padding-right: 10em;
+}
+
+.box-download {
+  margin-bottom: 7em;
 }
