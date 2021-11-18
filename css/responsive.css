@@ -278,6 +278,18 @@ body {
   .btn-download {
     width: 50%;
   }
+  .image-bg-05 {
+    background-size: cover;
+    background-position: top center;
+    height: 65vh;
+    margin-bottom: 3em;
+    padding: 2em 0 2.6em 0 !important;
+  }
+  .box-test-3 {
+    font-size: 48px;
+    padding-top: 2.9em;
+    padding-left: 1.4em;
+  }
   /*Footer*/
   .ig-profile-image {
     width: 50%;

@@ -225,6 +225,17 @@ body {
     width: 50%;
   }
 
+  ///Digital-Agency.html///
+  .image-bg-05 {
+    @include img-top-responsive;
+    padding: 2em 0 2.6em 0 !important;
+  }
+  .box-test-3 {
+    font-size: 48px;
+    padding-top: 2.9em;
+    padding-left: 1.4em;
+  }
+
   /*Footer*/
   .ig-profile-image {
     width: 50%;

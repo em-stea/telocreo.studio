@@ -540,3 +540,17 @@ footer {
 .box-download {
   margin-bottom: 7em;
 }
+
+///Digital-Agency.html///
+.image-bg-05 {
+  background-image: url(../img/bg-05.png);
+  @include img-top;
+}
+.box-test-3 {
+  @include big-text;
+  @extend %module-padding;
+}
+.text-orange {
+  color: $colour-text-orange;
+  font-weight: 800;
+}
