@@ -554,3 +554,39 @@ footer {
   color: $colour-text-orange;
   font-weight: 800;
 }
+.text-bold-grey {
+  font-weight: 800;
+}
+.picture-agency {
+  width: 70%;
+}
+.text-carousel {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 3em;
+}
+.carousel-indicators [data-bs-target] {
+  border-top: 0;
+  border-bottom: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  margin-bottom: 1em;
+}
+.bg-agency {
+  text-align: center;
+  color: $colour-text-blue;
+  background-image: url(../img/bg-agency.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+.bg-agency p {
+  margin-top: 1.5em;
+  color: $colour-text-white;
+}
+.title-agency {
+  font-size: 3.5em;
+  padding-top: 5em;
+  color: $colour-text-white;
+}
