@@ -264,6 +264,27 @@ body {
     padding-bottom: 8em;
   }
 
+  ///Web-Development.html///
+  .image-bg-06 {
+    @include img-top-responsive;
+    padding: 2em 0 2.6em 0 !important;
+  }
+  .bg-web {
+    text-align: center;
+    color: $colour-text-blue;
+    background-image: url(../img/bg-web-adaptable.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+  .title-web {
+    font-size: 2.2em;
+    padding: 3em 1em 0 1em;
+  }
+  .bg-web p {
+    padding-bottom: 4em;
+  }
+
   /*Footer*/
   .ig-profile-image {
     width: 50%;

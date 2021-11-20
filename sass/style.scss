@@ -560,10 +560,16 @@ footer {
 .picture-agency {
   width: 70%;
 }
+.carousel-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  padding: 0;
+}
 .text-carousel {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 800;
-  padding-bottom: 3em;
 }
 .carousel-indicators [data-bs-target] {
   border-top: 0;
@@ -589,4 +595,35 @@ footer {
   font-size: 3.5em;
   padding-top: 5em;
   color: $colour-text-white;
+}
+
+///Web-Development.html///
+.image-bg-06 {
+  background-image: url(../img/bg-06.png);
+  @include img-top;
+}
+.text-red {
+  color: $colour-text-red;
+  font-weight: 800;
+}
+.text-blue {
+  color: $colour-text-blue;
+  font-weight: 800;
+}
+.bg-web {
+  text-align: center;
+  color: $colour-text-blue;
+  background-image: url(../img/bg-web.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+.title-web {
+  font-size: 3.5em;
+  padding-top: 4em;
+  font-weight: 700;
+  color: $colour-text-blue;
+}
+.text-reg {
+  font-weight: 500 !important;
 }

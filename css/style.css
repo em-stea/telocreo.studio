@@ -765,10 +765,23 @@ footer {
   width: 70%;
 }
 
+.carousel-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 350px;
+  padding: 0;
+}
+
 .text-carousel {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: 800;
-  padding-bottom: 3em;
 }
 
 .carousel-indicators [data-bs-target] {
@@ -798,4 +811,42 @@ footer {
   font-size: 3.5em;
   padding-top: 5em;
   color: white;
+}
+
+.image-bg-06 {
+  background-image: url(../img/bg-06.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+}
+
+.text-red {
+  color: #ff0000;
+  font-weight: 800;
+}
+
+.text-blue {
+  color: #00349b;
+  font-weight: 800;
+}
+
+.bg-web {
+  text-align: center;
+  color: #00349b;
+  background-image: url(../img/bg-web.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
+
+.title-web {
+  font-size: 3.5em;
+  padding-top: 4em;
+  font-weight: 700;
+  color: #00349b;
+}
+
+.text-reg {
+  font-weight: 500 !important;
 }
