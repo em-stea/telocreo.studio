@@ -850,3 +850,59 @@ footer {
 .text-reg {
   font-weight: 500 !important;
 }
+
+.image-bg-07 {
+  background-image: url(../img/bg-07.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+  background-color: #5c5b5b;
+}
+
+.picture-bg-brand {
+  position: relative;
+  z-index: -5;
+  margin-top: -32em;
+  padding: 0;
+}
+
+.picture-brand {
+  width: 50%;
+}
+
+.bg-grey {
+  background-color: #5c5b5b;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 3.5em;
+}
+
+.bg-grey h1 {
+  font-weight: 800;
+}
+
+.text-white {
+  color: white;
+}
+
+.title-brand {
+  font-size: 3em;
+  padding-top: 4em;
+  font-weight: 700;
+  color: #5c5b5b;
+}
+
+.text-green-brand {
+  color: #1cceb8;
+}
+
+.bg-brand {
+  text-align: center;
+  height: 75vh;
+}
+
+.bg-brand p {
+  color: #5c5b5b;
+}

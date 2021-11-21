@@ -627,3 +627,46 @@ footer {
 .text-reg {
   font-weight: 500 !important;
 }
+
+///Creative-Brand.html///
+.image-bg-07 {
+  background-image: url(../img/bg-07.png);
+  @include img-top;
+  background-color: $colour-text-dark-grey;
+}
+.picture-bg-brand {
+  position: relative;
+  z-index: -5;
+  margin-top: -32em;
+  padding: 0;
+}
+.picture-brand {
+  width: 50%;
+}
+.bg-grey {
+  background-color: #5c5b5b;
+  display: flex;
+  padding-bottom: 3.5em;
+}
+.bg-grey h1 {
+  font-weight: 800;
+}
+.text-white {
+  color: $colour-text-white;
+}
+.title-brand {
+  font-size: 3em;
+  padding-top: 4em;
+  font-weight: 700;
+  color: $colour-text-dark-grey;
+}
+.text-green-brand {
+  color: $colour-text-green;
+}
+.bg-brand {
+  text-align: center;
+  height: 75vh;
+}
+.bg-brand p {
+  color: $colour-text-dark-grey;
+}

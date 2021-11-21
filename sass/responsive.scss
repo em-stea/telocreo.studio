@@ -6,7 +6,7 @@
   padding: 0;
 }
 body {
-  font-size: 16px;
+  font-size: 20px;
   color: #828282;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -127,7 +127,7 @@ body {
 
   /*Quienes Somos*/
   .title-quienes-somos {
-    font-size: 2.5em;
+    font-size: 3em;
     margin-top: 1em;
   }
   .text-quienes-somos {
@@ -182,7 +182,7 @@ body {
     @include img-top-responsive;
   }
   .box-test {
-    font-size: 48px;
+    font-size: 50px;
     padding: 3.5em 0 0 0.5em;
   }
   .picture-test {
@@ -198,8 +198,11 @@ body {
     @include img-top-responsive;
   }
   .box-test-2 {
-    font-size: 48px;
+    font-size: 50px;
     padding: 4em 0 0 0.5em;
+  }
+  .text-green {
+    font-size: 3em;
   }
   .padding-left {
     padding: 0 2em;
@@ -234,8 +237,11 @@ body {
     padding: 2em 0 2.6em 0 !important;
   }
   .box-test-3 {
-    font-size: 48px;
-    padding: 2.9em 0 0 0.7em;
+    font-size: 50px;
+    padding: 3.9em 0 0 0.7em;
+  }
+  .text-orange {
+    font-size: 3em;
   }
   .carousel-caption {
     display: flex;
@@ -281,10 +287,31 @@ body {
     font-size: 2.2em;
     padding: 3em 1em 0 1em;
   }
+  .text-bold-resp {
+    font-size: 3em;
+  }
   .bg-web p {
     padding-bottom: 4em;
   }
 
+  ///Creative-brand.html///
+  .image-bg-07 {
+    @include img-top-responsive;
+    padding: 2em 0 2.6em 0 !important;
+    margin-bottom: 0;
+  }
+  .bg-grey {
+    display: flex;
+    flex-direction: column !important;
+    padding: 5em 0;
+  }
+  .bg-grey h1 {
+    font-size: 3em;
+  }
+  .title-brand {
+    font-size: 3em;
+    padding: 3em 1em 0 1em;
+  }
   /*Footer*/
   .ig-profile-image {
     width: 50%;
