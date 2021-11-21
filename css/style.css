@@ -87,7 +87,7 @@ body {
 #coffee {
   background-color: #f76809;
   color: white;
-  /*margin-top: 4.7em;*/
+  margin-top: -1.3em;
   font-size: 16px;
 }
 
@@ -312,6 +312,12 @@ p {
   padding: 3.7em 0;
 }
 
+.bg-conocenos h1 {
+  font-weight: 800;
+  font-size: 1.2em;
+  padding-top: 0.3em;
+}
+
 /*En que nos destacamos*/
 .box-highlight {
   text-align: center;
@@ -366,6 +372,10 @@ p {
   font-weight: 700;
 }
 
+.text-block {
+  font-size: 16px;
+}
+
 /*Row Business*/
 .bg-business {
   background-image: url(../img/bg-slider-02.jpg);
@@ -400,13 +410,14 @@ p {
 .bg-client {
   text-align: center;
   color: #00349b;
-  background-image: url(../img/bg-client.jpg);
+  background-image: url(../img/bg-client.png);
   background-size: cover;
-  height: 100vh;
+  padding-bottom: 13em;
 }
 
 .title-client {
-  padding-top: 5em;
+  padding-top: 4em;
+  font-size: 1.8em;
 }
 
 /*Footer*/
@@ -435,12 +446,16 @@ footer {
 }
 
 .contact-icons i:hover {
-  color: #da1f26;
+  color: #00349b;
 }
 
 .contact-icons a {
   text-decoration: none;
   color: white;
+}
+
+.contact-icons a:hover {
+  color: #00349b;
 }
 
 .ig-profile-image {
@@ -537,6 +552,7 @@ footer {
   background-repeat: no-repeat;
   height: 100vh;
   background-position: top left;
+  margin-top: -1em;
 }
 
 .box-coffee, .box-test, .box-test-3 {
@@ -723,6 +739,11 @@ footer {
   border-radius: 25px;
 }
 
+.btn-download:hover {
+  background-color: #f76809;
+  color: white;
+}
+
 .padding-freeblioteca-left {
   padding-left: 10em;
   padding-right: 2em;
@@ -808,9 +829,13 @@ footer {
 }
 
 .title-agency {
-  font-size: 3.5em;
-  padding-top: 5em;
+  font-size: 2.5em;
+  padding-top: 5.5em;
   color: white;
+}
+
+.container-web-development {
+  margin-top: -2em;
 }
 
 .image-bg-06 {
@@ -841,8 +866,8 @@ footer {
 }
 
 .title-web {
-  font-size: 3.5em;
-  padding-top: 4em;
+  font-size: 2.5em;
+  padding-top: 4.5em;
   font-weight: 700;
   color: #00349b;
 }
@@ -905,4 +930,111 @@ footer {
 
 .bg-brand p {
   color: #5c5b5b;
+}
+
+.image-bg-08 {
+  background-image: url(../img/bg-08.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+  background-color: #eeeeee;
+}
+
+.bg-light-grey {
+  background-color: #eeeeee;
+  padding-bottom: 3.5em;
+}
+
+.box-img-marketing {
+  width: 60%;
+  text-align: center;
+}
+
+.text-carousel-lab-1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #f76809;
+}
+
+.text-carousel-lab-2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #00349b;
+}
+
+.title-lab {
+  color: #ff0000;
+  font-weight: 800;
+  font-size: 2.5em;
+}
+
+.bg-lab {
+  background-color: #eeeeee;
+  text-align: center;
+  height: 65vh;
+}
+
+.bg-lab p {
+  padding: 9em 0 1em 0;
+}
+
+.text-green-lab {
+  color: #1cceb8;
+  font-weight: 800;
+}
+
+.image-bg-09 {
+  background-image: url(../img/bg-09.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+}
+
+.box-img-about {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.bg-why {
+  text-align: center;
+  color: #00349b;
+  background-image: url(../img/bg-about-us.png);
+  background-size: cover;
+  padding-bottom: 10em;
+  padding-top: 10em;
+}
+
+.text-white {
+  color: white;
+}
+
+.title-strong {
+  font-size: 2.5em;
+}
+
+.strong {
+  font-weight: 800;
+}
+
+.text-change {
+  padding: 10em 0;
+}
+
+.text-change h1 {
+  font-size: 2.5em;
+}
+
+.bg-about-2 {
+  text-align: center;
+  color: #00349b;
+  background-image: url(../img/bg-about-us-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.bg-about-2 h1 {
+  padding-bottom: 9em;
 }

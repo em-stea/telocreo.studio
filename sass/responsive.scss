@@ -54,7 +54,7 @@ body {
     margin-right: 6px;
   }
   #coffee {
-    margin-top: -7px;
+    margin-top: -17px;
   }
   #coffee a {
     padding: 20px 0;
@@ -69,7 +69,7 @@ body {
     @include img-top-responsive;
   }
   .box-home p {
-    font-size: 33px;
+    font-size: 45px;
     position: absolute;
     top: 390px;
     text-align: center;
@@ -78,9 +78,9 @@ body {
   .box-text {
     text-align: center;
     top: 9.3em;
-    height: 31px;
-    font-size: 30px;
-    line-height: 30px;
+    height: 36px;
+    font-size: 35px;
+    line-height: 35px;
   }
 
   @keyframes rotator-text {
@@ -91,34 +91,34 @@ body {
       margin-top: 0;
     }
     15% {
-      margin-top: -30px;
+      margin-top: -35px;
     }
     25% {
-      margin-top: -30px;
+      margin-top: -35px;
     }
     35% {
-      margin-top: -60px;
+      margin-top: -70px;
     }
     45% {
-      margin-top: -60px;
+      margin-top: -70px;
     }
     50% {
-      margin-top: -90px;
+      margin-top: -105px;
     }
     60% {
-      margin-top: -90px;
+      margin-top: -105px;
     }
     70% {
-      margin-top: -60px;
+      margin-top: -70px;
     }
     80% {
-      margin-top: -60px;
+      margin-top: -70px;
     }
     90% {
-      margin-top: -30px;
+      margin-top: -35px;
     }
     95% {
-      margin-top: -30px;
+      margin-top: -35px;
     }
     100% {
       margin-top: 0;
@@ -127,7 +127,7 @@ body {
 
   /*Quienes Somos*/
   .title-quienes-somos {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: 1em;
   }
   .text-quienes-somos {
@@ -155,8 +155,9 @@ body {
     height: 20px;
     margin: auto;
   }
-  .bg-conocenos p {
-    font-size: 29px;
+  .bg-conocenos h1 {
+    font-size: 36px;
+    padding-top: 0;
   }
   .align {
     margin: auto;
@@ -173,17 +174,35 @@ body {
     font-size: 7px;
     padding: 47px 0;
   }
+  .bg-business h1 {
+    font-size: 30px;
+    padding-top: 0;
+  }
   .bg-business p {
     margin-top: 0.5em;
     font-size: 16px;
   }
+  /*Client*/
+  .bg-client {
+    text-align: center;
+    color: $colour-text-blue;
+    background-image: url(../img/bg-client-adaptable.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 16em;
+  }
+  .title-client {
+    padding-top: 2em;
+    font-size: 2.2em;
+  }
+
   ///Test-Page.html///
   .image-bg-03 {
     @include img-top-responsive;
   }
   .box-test {
     font-size: 50px;
-    padding: 3.5em 0 0 0.5em;
+    padding: 4.5em 0 0 0.5em;
   }
   .picture-test {
     padding-right: 0;
@@ -192,6 +211,9 @@ body {
     width: 90%;
     margin: auto;
   }
+  .box-text-align h1 {
+    font-size: 2.5em;
+  }
 
   ///Freeblioteca.html///
   .image-bg-04 {
@@ -199,10 +221,10 @@ body {
   }
   .box-test-2 {
     font-size: 50px;
-    padding: 4em 0 0 0.5em;
+    padding: 5.3em 0 0 0.5em;
   }
   .text-green {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .padding-left {
     padding: 0 2em;
@@ -213,10 +235,10 @@ body {
   }
   .bg-download {
     @include img-long-responsive;
-    padding: 2em 0 2.6em 0 !important;
+    padding: 1.5em 0 2.9em 0 !important;
   }
   .bg-download p {
-    font-size: 22px;
+    font-size: 29px;
     margin: auto;
   }
   .padding-freeblioteca-left,
@@ -227,8 +249,12 @@ body {
   .padding-freeblioteca-left {
     margin-bottom: 5em;
   }
+  .title-download {
+    font-size: 26px;
+  }
   .btn-download {
     width: 50%;
+    font-size: 21px;
   }
 
   ///Digital-Agency.html///
@@ -238,10 +264,10 @@ body {
   }
   .box-test-3 {
     font-size: 50px;
-    padding: 3.9em 0 0 0.7em;
+    padding: 3.7em 0 0 0.7em;
   }
   .text-orange {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .carousel-caption {
     display: flex;
@@ -288,7 +314,7 @@ body {
     padding: 3em 1em 0 1em;
   }
   .text-bold-resp {
-    font-size: 3em;
+    font-size: 2.5em;
   }
   .bg-web p {
     padding-bottom: 4em;
@@ -312,6 +338,38 @@ body {
     font-size: 3em;
     padding: 3em 1em 0 1em;
   }
+
+  ///Marketing-Lab.html///
+  .image-bg-08 {
+    @include img-top-responsive;
+    padding: 2em 0 2.6em 0 !important;
+    margin-bottom: 0;
+  }
+  .title-resp-lab {
+    font-size: 2.5em;
+    margin: 2em 0 1em 0;
+  }
+  .box-img-marketing {
+    width: auto;
+    margin-bottom: 3em;
+  }
+  .text-carousel-lab-1 {
+    font-size: 2rem;
+  }
+  .text-carousel-lab-2 {
+    font-size: 2rem;
+  }
+
+  ///About-us.html///
+  .bg-why {
+    text-align: center;
+    color: $colour-text-blue;
+    background-image: url(../img/bg-about-us-adaptable.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 16em;
+  }
+
   /*Footer*/
   .ig-profile-image {
     width: 50%;

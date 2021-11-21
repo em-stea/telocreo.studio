@@ -76,7 +76,7 @@ body {
 #coffee {
   background-color: $colour-text-orange;
   color: $colour-text-white;
-  /*margin-top: 4.7em;*/
+  margin-top: -1.3em;
   font-size: 16px;
 }
 #coffee p {
@@ -223,6 +223,11 @@ p {
   margin-bottom: 1em;
   @include text-banner;
 }
+.bg-conocenos h1 {
+  font-weight: 800;
+  font-size: 1.2em;
+  padding-top: 0.3em;
+}
 
 /*En que nos destacamos*/
 .box-highlight {
@@ -267,6 +272,9 @@ p {
   color: $colour-text-blue;
   font-weight: 700;
 }
+.text-block {
+  font-size: 16px;
+}
 
 /*Row Business*/
 .bg-business {
@@ -295,12 +303,13 @@ p {
 .bg-client {
   text-align: center;
   color: $colour-text-blue;
-  background-image: url(../img/bg-client.jpg);
+  background-image: url(../img/bg-client.png);
   background-size: cover;
-  height: 100vh;
+  padding-bottom: 13em;
 }
 .title-client {
-  padding-top: 5em;
+  padding-top: 4em;
+  font-size: 1.8em;
 }
 
 /*Footer*/
@@ -324,11 +333,14 @@ footer {
   margin-right: 0.5em;
 }
 .contact-icons i:hover {
-  color: #da1f26;
+  color: $colour-text-blue;
 }
 .contact-icons a {
   text-decoration: none;
   color: $colour-text-white;
+}
+.contact-icons a:hover {
+  color: $colour-text-blue;
 }
 .ig-profile-image {
   width: 40%;
@@ -396,6 +408,7 @@ footer {
 .image-bg-02 {
   background-image: url(../img/bg-02.png);
   @include img-top;
+  margin-top: -1em;
 }
 %module-padding {
   padding: 2.5em 0em 0em 1em;
@@ -530,6 +543,10 @@ footer {
   margin-top: 1em;
   border-radius: 25px;
 }
+.btn-download:hover {
+  background-color: $colour-text-orange;
+  color: $colour-text-white;
+}
 .padding-freeblioteca-left {
   padding-left: 10em;
   padding-right: 2em;
@@ -592,12 +609,15 @@ footer {
   color: $colour-text-white;
 }
 .title-agency {
-  font-size: 3.5em;
-  padding-top: 5em;
+  font-size: 2.5em;
+  padding-top: 5.5em;
   color: $colour-text-white;
 }
 
 ///Web-Development.html///
+.container-web-development {
+  margin-top: -2em;
+}
 .image-bg-06 {
   background-image: url(../img/bg-06.png);
   @include img-top;
@@ -619,8 +639,8 @@ footer {
   height: 75vh;
 }
 .title-web {
-  font-size: 3.5em;
-  padding-top: 4em;
+  font-size: 2.5em;
+  padding-top: 4.5em;
   font-weight: 700;
   color: $colour-text-blue;
 }
@@ -669,4 +689,90 @@ footer {
 }
 .bg-brand p {
   color: $colour-text-dark-grey;
+}
+
+///Marketing-Lab.html///
+.image-bg-08 {
+  background-image: url(../img/bg-08.png);
+  @include img-top;
+  background-color: #eeeeee;
+}
+.bg-light-grey {
+  background-color: #eeeeee;
+  padding-bottom: 3.5em;
+}
+.box-img-marketing {
+  width: 60%;
+  text-align: center;
+}
+.text-carousel-lab-1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: $colour-text-orange;
+}
+.text-carousel-lab-2 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: $colour-text-blue;
+}
+.title-lab {
+  color: $colour-text-red;
+  font-weight: 800;
+  font-size: 2.5em;
+}
+.bg-lab {
+  background-color: #eeeeee;
+  text-align: center;
+  height: 65vh;
+}
+.bg-lab p {
+  padding: 9em 0 1em 0;
+}
+.text-green-lab {
+  color: $colour-text-green;
+  font-weight: 800;
+}
+
+///About-us.html///
+.image-bg-09 {
+  background-image: url(../img/bg-09.png);
+  @include img-top;
+}
+.box-img-about {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.bg-why {
+  text-align: center;
+  color: $colour-text-blue;
+  background-image: url(../img/bg-about-us.png);
+  background-size: cover;
+  padding-bottom: 10em;
+  padding-top: 10em;
+}
+.text-white {
+  color: $colour-text-white;
+}
+.title-strong {
+  font-size: 2.5em;
+}
+.strong {
+  font-weight: 800;
+}
+.text-change {
+  padding: 10em 0;
+}
+.text-change h1 {
+  font-size: 2.5em;
+}
+.bg-about-2 {
+  text-align: center;
+  color: $colour-text-blue;
+  background-image: url(../img/bg-about-us-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bg-about-2 h1 {
+  padding-bottom: 9em;
 }
