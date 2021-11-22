@@ -8,7 +8,7 @@
 }
 
 body {
-  font-size: 20px;
+  font-size: 16px;
   color: #828282;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -59,7 +59,7 @@ body {
     margin-right: 6px;
   }
   #coffee {
-    margin-top: -17px;
+    margin-top: auto;
   }
   #coffee a {
     padding: 20px 0;
@@ -441,7 +441,6 @@ body {
     background-image: url(../img/bg-about-us-adaptable.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-bottom: 9em;
   }
   .title-resp-about {
     font-size: 2.2em;
@@ -454,11 +453,8 @@ body {
     width: 100%;
     margin-bottom: 3em;
   }
-  .bg-why {
-    padding-top: 6em;
-  }
   .text-change {
-    padding: 1em 0 4em 0;
+    padding: 3em 0 4em 0;
   }
   .text-change h1 {
     font-size: 2.3em;
@@ -469,13 +465,21 @@ body {
     background-repeat: no-repeat;
     background-position: top left;
     height: 500px;
-    margin-bottom: -6.6em;
+    margin-bottom: -9.6em;
     color: white;
     text-align: center;
   }
   .bg-about-2 h1 {
     font-size: 2em;
-    padding-top: 3em;
+    padding-top: 4em;
+  }
+  .image-bg-10 {
+    background-size: cover;
+    background-position: top center;
+    height: 65vh;
+    margin-bottom: 3em;
+    padding: 2em 0 2.6em 0 !important;
+    margin-bottom: 0;
   }
   /*Footer*/
   .ig-profile-image {
