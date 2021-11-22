@@ -1108,7 +1108,7 @@ footer {
   padding-left: 2em;
 }
 
-.img-width-fpunders {
+.img-width-founders {
   width: 45%;
 }
 
@@ -1162,13 +1162,49 @@ footer {
   padding: 3.2em !important;
 }
 
-.bg-text-team p {
+.text-bottom-team {
+  width: 55%;
+}
+
+.bg-text-team .text-bottom-team {
   font-size: 2.3em;
   text-align: center;
-  height: 170px;
+  height: 140px;
   margin: auto;
 }
 
 .bottom-text {
   margin-bottom: 7em;
+}
+
+.image-bg-11 {
+  background-image: url(../img/bg-11.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: top left;
+}
+
+.bg-start {
+  background-image: url(../img/bg-previous-assignments.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: top left;
+  height: 500px;
+  margin-bottom: -5.3em;
+}
+
+.bg-start h1 {
+  color: #ff0000;
+  font-weight: 800;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }

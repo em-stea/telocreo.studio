@@ -405,6 +405,9 @@ body {
     font-size: 3em;
     padding: 3em 1em 0 1em;
   }
+  .bg-brand {
+    height: 58vh;
+  }
   .image-bg-08 {
     background-size: cover;
     background-position: top center;
@@ -426,6 +429,14 @@ body {
   }
   .text-carousel-lab-2 {
     font-size: 2rem;
+  }
+  .text-grey-lab {
+    color: #5c5b5b;
+    text-align: center;
+    padding-bottom: 3em;
+  }
+  .bg-lab {
+    height: 48vh;
   }
   .image-bg-09 {
     background-size: cover;
@@ -480,6 +491,85 @@ body {
     margin-bottom: 3em;
     padding: 2em 0 2.6em 0 !important;
     margin-bottom: 0;
+  }
+  .bg-team {
+    padding-top: 0;
+  }
+  .text-founders {
+    font-size: 2.5em;
+  }
+  .margin-founders {
+    margin-top: 3em;
+  }
+  .img-align-left {
+    padding: 0 20px;
+  }
+  .img-align-right {
+    padding: 0 20px;
+  }
+  .text-team {
+    font-size: 2.5em;
+  }
+  .img-width-team {
+    width: 45%;
+  }
+  .padding-team-resp {
+    padding: 0 20px;
+    margin-bottom: 2em;
+  }
+  .padding-priorities {
+    padding-left: 20px;
+    margin-bottom: 2em;
+  }
+  .img-prioridades {
+    width: 100%;
+  }
+  .text-resp {
+    font-size: 2em;
+  }
+  .bg-text-team {
+    background-image: url(../img/bg-our-team-grey-adaptable.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 500px;
+    margin-bottom: -9.6em;
+    color: white;
+    text-align: center;
+  }
+  .bg-text-team .text-bottom-team {
+    width: 100%;
+    font-size: 1.8em;
+    height: 346px;
+    margin: auto;
+  }
+  .bottom-text {
+    margin-bottom: 7em;
+    margin-top: 4em;
+  }
+  .image-bg-11 {
+    background-size: cover;
+    background-position: top center;
+    height: 65vh;
+    margin-bottom: 3em;
+    padding: 2em 0 2.6em 0 !important;
+    margin-bottom: 0;
+  }
+  .text-previous {
+    margin-top: 2.5em;
+  }
+  .bg-start {
+    background-image: url(../img/bg-previous-assignments-adaptable.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    height: 500px;
+    margin-bottom: -9.6em;
+    color: white;
+    text-align: center;
+  }
+  .bg-start h1 {
+    height: 375px;
   }
   /*Footer*/
   .ig-profile-image {

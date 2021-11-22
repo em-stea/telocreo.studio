@@ -831,7 +831,7 @@ footer {
 .img-align-right {
   padding-left: 2em;
 }
-.img-width-fpunders {
+.img-width-founders {
   width: 45%;
 }
 .img-width-team {
@@ -868,12 +868,34 @@ footer {
   margin-bottom: 0.5em;
   padding: 3.2em !important;
 }
-.bg-text-team p {
+.text-bottom-team {
+  width: 55%;
+}
+.bg-text-team .text-bottom-team {
   font-size: 2.3em;
   text-align: center;
-  height: 170px;
+  height: 140px;
   margin: auto;
 }
 .bottom-text {
   margin-bottom: 7em;
+}
+
+////Previous-assignments.html///
+.image-bg-11 {
+  background-image: url(../img/bg-11.png);
+  @include img-top;
+}
+.bg-start {
+  background-image: url(../img/bg-previous-assignments.png);
+  @include img-long;
+  margin-bottom: -5.3em;
+}
+.bg-start h1 {
+  color: $colour-text-red;
+  font-weight: 800;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

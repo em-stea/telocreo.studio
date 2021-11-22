@@ -338,6 +338,9 @@ body {
     font-size: 3em;
     padding: 3em 1em 0 1em;
   }
+  .bg-brand {
+    height: 58vh;
+  }
 
   ///Marketing-Lab.html///
   .image-bg-08 {
@@ -358,6 +361,14 @@ body {
   }
   .text-carousel-lab-2 {
     font-size: 2rem;
+  }
+  .text-grey-lab {
+    color: $colour-text-dark-grey;
+    text-align: center;
+    padding-bottom: 3em;
+  }
+  .bg-lab {
+    height: 48vh;
   }
 
   ///About-us.html///
@@ -406,6 +417,78 @@ body {
     @include img-top-responsive;
     padding: 2em 0 2.6em 0 !important;
     margin-bottom: 0;
+  }
+  .bg-team {
+    padding-top: 0;
+  }
+  .text-founders {
+    font-size: 2.5em;
+  }
+  .margin-founders {
+    margin-top: 3em;
+  }
+  .img-align-left {
+    padding: 0 20px;
+  }
+  .img-align-right {
+    padding: 0 20px;
+  }
+  .text-team {
+    font-size: 2.5em;
+  }
+  .img-width-team {
+    width: 45%;
+  }
+  .padding-team-resp {
+    padding: 0 20px;
+    margin-bottom: 2em;
+  }
+  .padding-priorities {
+    padding-left: 20px;
+    margin-bottom: 2em;
+  }
+  .img-prioridades {
+    width: 100%;
+  }
+  .text-resp {
+    font-size: 2em;
+  }
+  .bg-text-team {
+    background-image: url(../img/bg-our-team-grey-adaptable.png);
+    @include img-long;
+    margin-bottom: -9.6em;
+    color: $colour-text-white;
+    text-align: center;
+  }
+  .bg-text-team .text-bottom-team {
+    width: 100%;
+    font-size: 1.8em;
+    height: 346px;
+    margin: auto;
+  }
+  .bottom-text {
+    margin-bottom: 7em;
+    margin-top: 4em;
+  }
+
+  ///Previous-assignments.html///
+  .image-bg-11 {
+    @include img-top-responsive;
+    padding: 2em 0 2.6em 0 !important;
+    margin-bottom: 0;
+  }
+  .text-previous {
+    margin-top: 2.5em;
+  }
+  .bg-start {
+    background-image: url(../img/bg-previous-assignments-adaptable.png);
+    @include img-long;
+    margin-bottom: -9.6em;
+    color: $colour-text-white;
+    text-align: center;
+  }
+  .bg-start h1 {
+    height: 375px;
   }
 
   /*Footer*/
