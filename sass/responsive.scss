@@ -21,7 +21,7 @@ body {
 @media screen and (min-width: 426px) and (max-width: 500px) {
   /*Home*/
   .box-text {
-    left: 40px;
+    left: 13px;
   }
 }
 @media screen and (min-width: 501px) and (max-width: 700px) {
@@ -175,8 +175,8 @@ body {
     padding: 47px 0;
   }
   .bg-business h1 {
-    font-size: 30px;
-    padding-top: 0;
+    font-size: 28px;
+    padding-top: 6px;
   }
   .bg-business p {
     margin-top: 0.5em;
@@ -361,13 +361,49 @@ body {
   }
 
   ///About-us.html///
+  .image-bg-09 {
+    @include img-top-responsive;
+    padding: 2em 0 2.6em 0 !important;
+    margin-bottom: 0;
+  }
   .bg-why {
     text-align: center;
     color: $colour-text-blue;
     background-image: url(../img/bg-about-us-adaptable.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-bottom: 16em;
+    padding-bottom: 9em;
+  }
+  .title-resp-about {
+    font-size: 2.2em;
+    margin: 2em 0 1em 0;
+  }
+  .box-img-about {
+    margin: auto;
+  }
+  .box-img-about img {
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  .bg-why {
+    padding-top: 6em;
+  }
+  .text-change {
+    padding: 1em 0 4em 0;
+  }
+  .text-change h1 {
+    font-size: 2.3em;
+  }
+  .bg-about-2 {
+    background-image: url(../img/bg-about-us-2-adaptable.png);
+    @include img-long;
+    margin-bottom: -6.6em;
+    color: $colour-text-white;
+    text-align: center;
+  }
+  .bg-about-2 h1 {
+    font-size: 2em;
+    padding-top: 3em;
   }
 
   /*Footer*/
@@ -401,7 +437,7 @@ body {
   .box-home p {
     font-size: 33px;
     position: absolute;
-    top: 520px;
+    top: 540px;
     text-align: center;
     padding: 0 30px;
   }
@@ -463,18 +499,19 @@ body {
   /*Home*/
   .image-bg {
     @include img-top-responsive;
+    height: 85vh !important;
   }
   .box-home p {
     font-size: 52px;
     position: absolute;
-    top: 452px;
+    top: 400px;
     text-align: center;
     padding: 0 30px;
   }
   .box-text {
-    left: 350px;
+    left: 390px;
     text-align: center;
-    top: 6em;
+    top: 5.3em;
     height: 53px;
     font-size: 52px;
     line-height: 52px;

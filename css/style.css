@@ -139,7 +139,7 @@ body {
 }
 
 .box-home p {
-  top: 6em;
+  top: 3em;
   margin: auto;
   width: 100%;
 }
@@ -257,7 +257,7 @@ p {
 }
 
 .box-txt {
-  padding: 0 7em;
+  padding: 0 3em;
 }
 
 .title-quienes-somos {
@@ -265,6 +265,7 @@ p {
   font-weight: 800;
   color: #f76809;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .text-quienes-somos {
@@ -315,7 +316,7 @@ p {
 .bg-conocenos h1 {
   font-weight: 800;
   font-size: 1.2em;
-  padding-top: 0.3em;
+  padding-top: 0.1em;
 }
 
 /*En que nos destacamos*/
@@ -403,6 +404,7 @@ p {
   font-size: 20px;
   font-weight: 500;
   margin-top: 1.5em;
+  margin-bottom: 1.5em;
   color: #707070;
 }
 
@@ -1020,7 +1022,7 @@ footer {
 }
 
 .text-change {
-  padding: 10em 0;
+  padding: 8em 0 7em 0;
 }
 
 .text-change h1 {
@@ -1028,13 +1030,18 @@ footer {
 }
 
 .bg-about-2 {
-  text-align: center;
-  color: #00349b;
   background-image: url(../img/bg-about-us-2.png);
-  background-size: contain;
+  background-size: 100%;
   background-repeat: no-repeat;
+  background-position: top left;
+  height: 500px;
+  margin-bottom: -4.3em;
+  color: white;
+  text-align: center;
 }
 
 .bg-about-2 h1 {
-  padding-bottom: 9em;
+  font-size: 2.5em;
+  padding-top: 4em;
+  color: white;
 }
