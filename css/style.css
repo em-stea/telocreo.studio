@@ -139,7 +139,7 @@ body {
 }
 
 .box-home p {
-  top: 3em;
+  top: 5.8em;
   margin: auto;
   width: 100%;
 }
@@ -657,15 +657,14 @@ footer {
   font-size: 12px;
 }
 
-.contenedor-boton {
-  text-align: center;
-}
-
 .btn-send {
   background-color: #f8d81b;
   font-weight: 700;
   color: #707070;
   width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
 }
 
 .image-bg-04 {

@@ -121,20 +121,18 @@
         <div class="col-12 col-md-6 text-md-end text-center">
             <img src="img/picture-test.png" class="picture-test mb-5" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600" alt="">
         </div>
-        <div class="col-md-6 contenedor-form" data-aos="fade-up" data-aos-delay="600" data-aos-duration="500">
-            <div class="mb-3">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
-            </div>
-            <div class="mb-3">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-            </div>
-            <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
-            </div>
-            <div class="contenedor-boton">
-                <button type="button" class="btn btn-send">Enviar</button>
-            </div>
-        </div>  
+        <form method="post" action="validacion.php" method="post" class="col-md-6 contenedor-form" data-aos="fade-up" data-aos-delay="600" data-aos-duration="500">
+          <div class="mb-3">
+              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" aria-required="">
+          </div>
+          <div class="mb-3">
+              <input type="email" class="form-control" id="email" name="email"  placeholder="Email" required>
+          </div>
+          <div class="mb-3">
+              <textarea class="form-control" id="mensaje" name="mensaje" rows="3" placeholder="Mensaje" required></textarea>
+          </div>
+          <input type="submit" class="text-center btn-send" name="enviar">
+        </form>  
       </div>
     </div>
 
@@ -207,12 +205,6 @@
   <script>
     AOS.init();
   </script>
-
-  <!--Typed Js Library--> <!--Efecto Escritura-->
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
-  <!-- Animated JS-->
-  <script src="js/animated.js"></script>
 
 </body>
 </html>

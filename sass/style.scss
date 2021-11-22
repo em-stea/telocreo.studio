@@ -115,7 +115,7 @@ body {
 }
 .box-home p {
   @extend %module;
-  top: 3em;
+  top: 5.8em;
   margin: auto;
   width: 100%;
 }
@@ -485,14 +485,14 @@ footer {
 .form-control {
   font-size: 12px;
 }
-.contenedor-boton {
-  text-align: center;
-}
 .btn-send {
   background-color: $colour-text-yellow;
   font-weight: 700;
   color: $colour-text-grey;
   width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 0;
 }
 
 ///Freeblioteca.html///
