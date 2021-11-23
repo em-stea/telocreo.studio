@@ -84,7 +84,7 @@
 
     <!--Top Coffee-->
     <section class="container-fluid image-bg-02">
-        <div class="box-coffee">
+        <div class="box-coffee animate__animated animate__fadeIn animate__slow">
         <p class="project-text">Cuéntanos de tu Proyecto</p>
         <p class="agency-text">Agenda un café virtual</p>
         </div>
@@ -93,8 +93,8 @@
     <!--Text Coffee-->
     <div class="container">
       <div class="box-text-align">
-          <h1 class="title-coffee">Queremos <span>conocerte</span> mejor,</h1>
-          <p class="mt-3">saber cuáles son tus metas  
+          <h1 class="title-coffee" data-aos="fade-up" data-aos-duration="600">Queremos <span>conocerte</span> mejor,</h1>
+          <p class="mt-3" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">saber cuáles son tus metas  
           <br>
           y cómo podemos ayudarte a alcanzarlas.
           <br>
@@ -107,9 +107,21 @@
     </div>
 
     <!--Calendar-->
-    <div class="container">
+    <div class="container container-calendar">
       <div class="row">
-        <img src="img/picture-coffee.png" class="picture-coffee" alt="">
+        <div class="col-12 col-md-6 text-center" data-aos="fade-up" data-aos-duration="600">
+          <img src="img/picture-coffee.png" class="picture-coffee" alt="">
+        </div>
+        <div class="col-12 col-md-6 text-center m-auto" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+          <!-- Principio del widget integrado de Calendly -->
+          <div class="calendly-inline-widget" data-url="https://calendly.com/telocreo/asesoria?hide_gdpr_banner=1" style="min-width:320px;height:630px;"></div>
+          <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          <!-- Final del widget integrado de Calendly -->
+        </div>
+        <!--
+        <div class="col-12 col-md-6 text-center m-auto" data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">
+          <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FArgentina%2FBuenos_Aires&showTitle=0&showNav=0&showPrint=0&showTabs=1&showCalendars=0&src=dGVsb2NyZW9jb25zdWx0b3Jlc0BnbWFpbC5jb20&color=%23039BE5" style="border-width:0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+        </div>-->
       </div>
     </div>
 
@@ -117,7 +129,9 @@
     <footer class="container-fluid">
         <div class="row row-pd-footer">
         <div class="col-12 col-md-4">
+          <a href="https://www.instagram.com/telocreo_studio/">
             <img src="img/ig-profile.jpg" class="img-fluid ig-profile-image d-block" alt="instagram profile feed social media">
+          </a>
         </div>
         <div class="contact-icons col-12 col-md-4">
             <p class="mb-3 text-contact">Contacto</p>

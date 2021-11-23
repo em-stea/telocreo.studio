@@ -1,5 +1,23 @@
 <?php 
 
+$nombre = $_POST['nombre'];
+$email = $_POST['email'];
+$mensaje = $_POST['mensaje'];
+
+$email_to = "emiliastea@hotmail.com"; 
+$asunto = "Consulta desde la Web Telocreo";
+$contenido = "$nombre ha enviado un mensaje desde la web www.telocreo.studio\n"
+. "\n"
+. "Nombre: $nombre\n"
+. "Email: $email\n"
+. "Mensaje: $mensaje\n"
+. "\n";
+
+
+if(mail($email_to, $asunto, $contenido)){
+   header("location:test-page.html");
+}
+/*
 if (isset($_POST['enviar'])){
     if (!empty($_POST['nombre']) && !empty($_POST['email']) && !empty($_POST['mensaje'])){
         $nombre = $_POST['nombre'];
@@ -16,7 +34,7 @@ if (isset($_POST['enviar'])){
 }
 
 
-/*
+
 $response = $_POST["g-recaptcha-response"];
  
 if(!empty($response))

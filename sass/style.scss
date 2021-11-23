@@ -449,7 +449,10 @@ footer {
   color: $colour-text-green;
 }
 .picture-coffee {
-  width: 40%;
+  width: 50%;
+}
+.container-calendar {
+  margin: 5em 0;
 }
 
 ///Test-page.html///
@@ -546,8 +549,12 @@ footer {
   font-weight: 700;
   width: 40%;
   height: 50px;
-  margin-top: 1em;
   border-radius: 25px;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+.description-download {
+  margin-bottom: 2em;
 }
 .btn-download:hover {
   background-color: $colour-text-orange;

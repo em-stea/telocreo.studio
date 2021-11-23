@@ -607,7 +607,11 @@ footer {
 }
 
 .picture-coffee {
-  width: 40%;
+  width: 50%;
+}
+
+.container-calendar {
+  margin: 5em 0;
 }
 
 .image-bg-03 {
@@ -741,8 +745,13 @@ footer {
   font-weight: 700;
   width: 40%;
   height: 50px;
-  margin-top: 1em;
   border-radius: 25px;
+  text-decoration: none;
+  padding: 10px 30px;
+}
+
+.description-download {
+  margin-bottom: 2em;
 }
 
 .btn-download:hover {
