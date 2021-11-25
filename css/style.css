@@ -607,7 +607,7 @@ footer {
 }
 
 .picture-coffee {
-  width: 50%;
+  width: 90%;
 }
 
 .container-calendar {
@@ -644,7 +644,7 @@ footer {
 }
 
 .picture-test {
-  width: 65%;
+  width: 85%;
   padding-right: 2em;
 }
 
@@ -696,7 +696,7 @@ footer {
 }
 
 .picture-freeblioteca {
-  width: 40%;
+  width: 95%;
 }
 
 .padding-left {
@@ -798,7 +798,7 @@ footer {
 }
 
 .picture-agency {
-  width: 70%;
+  width: 85%;
 }
 
 .carousel-caption {
@@ -891,6 +891,10 @@ footer {
   font-weight: 500 !important;
 }
 
+.picture-web {
+  width: 85%;
+}
+
 .image-bg-07 {
   background-image: url(../img/bg-07.png);
   background-size: contain;
@@ -908,7 +912,7 @@ footer {
 }
 
 .picture-brand {
-  width: 50%;
+  width: 80%;
 }
 
 .bg-grey {
@@ -997,6 +1001,14 @@ footer {
 .text-green-lab {
   color: #1cceb8;
   font-weight: 800;
+}
+
+.text-grey-lab {
+  color: #5c5b5b;
+}
+
+.picture-lab {
+  width: 65%;
 }
 
 .image-bg-09 {
@@ -1183,6 +1195,10 @@ footer {
 
 .bottom-text {
   margin-bottom: 7em;
+}
+
+.text-prioridades {
+  width: 80%;
 }
 
 .image-bg-11 {

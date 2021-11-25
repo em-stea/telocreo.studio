@@ -449,7 +449,7 @@ footer {
   color: $colour-text-green;
 }
 .picture-coffee {
-  width: 50%;
+  width: 90%;
 }
 .container-calendar {
   margin: 5em 0;
@@ -475,7 +475,7 @@ footer {
   font-weight: 800;
 }
 .picture-test {
-  width: 65%;
+  width: 85%;
   padding-right: 2em;
 }
 .contenedor-form {
@@ -514,7 +514,7 @@ footer {
   text-align: left;
 }
 .picture-freeblioteca {
-  width: 40%;
+  width: 95%;
 }
 .padding-left {
   padding-left: 9em;
@@ -588,7 +588,7 @@ footer {
   font-weight: 800;
 }
 .picture-agency {
-  width: 70%;
+  width: 85%;
 }
 .carousel-caption {
   display: flex;
@@ -660,6 +660,9 @@ footer {
 .text-reg {
   font-weight: 500 !important;
 }
+.picture-web {
+  width: 85%;
+}
 
 ///Creative-Brand.html///
 .image-bg-07 {
@@ -674,7 +677,7 @@ footer {
   padding: 0;
 }
 .picture-brand {
-  width: 50%;
+  width: 80%;
 }
 .bg-grey {
   background-color: #5c5b5b;
@@ -744,6 +747,12 @@ footer {
 .text-green-lab {
   color: $colour-text-green;
   font-weight: 800;
+}
+.text-grey-lab {
+  color: $colour-text-dark-grey;
+}
+.picture-lab {
+  width: 65%;
 }
 
 ///About-us.html///
@@ -886,6 +895,9 @@ footer {
 }
 .bottom-text {
   margin-bottom: 7em;
+}
+.text-prioridades {
+  width: 80%;
 }
 
 ////Previous-assignments.html///
