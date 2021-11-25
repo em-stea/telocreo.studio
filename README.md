@@ -1,7 +1,8 @@
 # telocreo.studio
 
 ## Preview
-![Screenshot 2021-11-16 183558](https://user-images.githubusercontent.com/54424032/142069673-aafe7e97-82fe-4315-bb4b-99bde89dbf8e.jpg)
+![Screenshot 2021-11-25 124042](https://user-images.githubusercontent.com/54424032/143469953-66c89acc-a160-4a46-92ca-ca62b0a59c38.jpg)
 
 [View Preview](https://em-stea.github.io/telocreo.studio/)
+
 
