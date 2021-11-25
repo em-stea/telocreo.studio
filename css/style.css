@@ -3,8 +3,7 @@
 /*Img long responsive*/
 @font-face {
   font-family: "icomoon";
-  src: url("../fonts/icomoon/icomoon.eot?koe9is");
-  src: url("../fonts/icomoon/icomoon.eot?koe9is#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?koe9is") format("truetype"), url("../fonts/icomoon/icomoon.woff?koe9is") format("woff"), url("../fonts/icomoon/icomoon.svg?koe9is#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf") format("truetype"), url("../fonts/icomoon/icomoon.woff") format("woff"), url("../fonts/icomoon/icomoon.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;

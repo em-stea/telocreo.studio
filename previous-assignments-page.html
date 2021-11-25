@@ -32,6 +32,43 @@
 
   <!--AOS Library--> <!--Animaciones JS para scroll-->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Pop up Gallery css-->
+  <link rel="stylesheet" href="css/pop-up-gallery1.css">
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'UA-98100313-2');
+  </script>
+
+  <!--Flipping Gallery css
+  <link rel="stylesheet" href="css/flipping_gallery.css">-->
+
+  <!--Flipping Gallery
+  <script src="js/jquery.flipping_gallery.js"></script>
+
+  <script>
+	  $(document).ready( function() {
+	    $(".gallery").flipping_gallery({
+	      enableScroll: true,
+	      autoplay: 2000
+	    });
+	    
+	    $(".next").click(function() {
+	      $(".gallery").flipForward();
+	      return false;
+	    });
+	    $(".prev").click(function() {
+	      $(".gallery").flipBackward();
+	      return false;
+	    });
+	  });
+		
+	</script>-->
+  
 </head>
 <body>
     <header>
@@ -101,7 +138,7 @@
     </section>
 
     <!--Previous-Assignments page-->
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">  
         <div class="col-12 text-center">
             <h1 class="text-blue text-previous" data-aos="fade-up" data-aos-duration="600">Nuestros casos de éxito.</h1>
@@ -111,6 +148,43 @@
         </div>        
       </div>
     </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-4 col-12-narrower imp-narrower">
+          <div class="wrapper-inner-content-image">
+            <img src="img/trabajos-realizados/kiri1.jpg"/>
+            <img src="img/trabajos-realizados/kiri2.jpg"/>
+            <img src="img/trabajos-realizados/kiri3.jpg"/>
+            <img src="img/trabajos-realizados/kiri4.jpg"/>
+            <img src="img/trabajos-realizados/kiri5.jpg"/>
+            <div class="wrapper-inner-content-image-hover">
+              <div class="wrapper-inner-content-image-hover-cercle">
+                <span class="icon icon-search solid"></span>
+              </div>
+            </div>
+          </div>    
+        </div>
+      </div>
+    </div>
+
+    <!--Ventana modal abierta tomamos los controles -->
+    <div id="fullscreen">
+      <div id="fullscreen-inner">
+        <div id="fullscreen-inner-left" class="fullscreen-inner-button">
+          <span class="icon-keyboard_arrow_left"></span>
+        </div>
+        <div id="fullscreen-inner-right" class="fullscreen-inner-button">
+          <span class="icon-keyboard_arrow_right"></span>
+        </div>
+        <div id="fullscreen-inner-close" class="fullscreen-inner-button">
+          <span class="icon-clear"></span>
+        </div>
+        <div id="fullscreen-image">
+        </div>
+      </div>
+    </div>
+
 
     <!--lets start-->
     <div class="container-fluid bg-start">
@@ -129,7 +203,7 @@
             <p class="mb-3 text-contact">Contacto</p>
             <p class="mb-2">Empecemos ahora, ¡Hablemos!</p>
             <a href="mailto:hola@telocreo.studio">
-            <i class="icon-envelope"></i>
+            <i class="icon-mail"></i>
             hola@telocreo.studio
             </a>
             <br>
@@ -194,6 +268,13 @@
 
     <!-- Animated JS-->
     <script src="js/typedText-Team.js"></script>
+
+    <!--JQuery for Pop up Gallery-->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+    <!--Pop up Gallery-->
+    <script src="js/pop-up-gallery1.js"></script>
+    
 
 </body>
 </html>
