@@ -69,7 +69,7 @@ body {
     @include img-top-responsive;
   }
   .box-home p {
-    font-size: 45px;
+    font-size: 42px;
     position: absolute;
     top: 390px;
     text-align: center;
@@ -77,10 +77,10 @@ body {
   }
   .box-text {
     text-align: center;
-    top: 9.3em;
-    height: 36px;
-    font-size: 35px;
-    line-height: 35px;
+    top: 9.5em;
+    height: 33px;
+    font-size: 32px;
+    line-height: 32px;
   }
 
   @keyframes rotator-text {
@@ -91,34 +91,34 @@ body {
       margin-top: 0;
     }
     15% {
-      margin-top: -35px;
+      margin-top: -32px;
     }
     25% {
-      margin-top: -35px;
+      margin-top: -32px;
     }
     35% {
-      margin-top: -70px;
+      margin-top: -64px;
     }
     45% {
-      margin-top: -70px;
+      margin-top: -64px;
     }
     50% {
-      margin-top: -105px;
+      margin-top: -96px;
     }
     60% {
-      margin-top: -105px;
+      margin-top: -96px;
     }
     70% {
-      margin-top: -70px;
+      margin-top: -64px;
     }
     80% {
-      margin-top: -70px;
+      margin-top: -64px;
     }
     90% {
-      margin-top: -35px;
+      margin-top: -32px;
     }
     95% {
-      margin-top: -35px;
+      margin-top: -32px;
     }
     100% {
       margin-top: 0;
@@ -173,6 +173,7 @@ body {
     margin-top: 5em;
     font-size: 7px;
     padding: 47px 0;
+    height: 182px;
   }
   .bg-business h1 {
     font-size: 28px;
@@ -189,7 +190,7 @@ body {
     background-image: url(../img/bg-client-adaptable.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-bottom: 16em;
+    padding-bottom: 19em;
   }
   .title-client {
     padding-top: 2em;
@@ -202,7 +203,7 @@ body {
   }
   .box-test {
     font-size: 50px;
-    padding: 4.5em 0 0 0.5em;
+    padding: 3.4em 0 0 0.5em;
   }
   .picture-test {
     padding-right: 0;
@@ -210,6 +211,10 @@ body {
   .contenedor-form {
     width: 90%;
     margin: auto;
+  }
+  .box-text-align {
+    text-align: left;
+    padding-left: 1em;
   }
   .box-text-align h1 {
     font-size: 2.5em;
@@ -221,7 +226,7 @@ body {
   }
   .box-test-2 {
     font-size: 50px;
-    padding: 5.3em 0 0 0.5em;
+    padding: 3.4em 0 0 0.5em;
   }
   .text-green {
     font-size: 2.5em;
@@ -264,7 +269,11 @@ body {
   }
   .box-test-3 {
     font-size: 50px;
-    padding: 3.7em 0 0 0.7em;
+    padding: 3.4em 0 0 0.7em;
+  }
+  .picture-agency {
+    margin-top: 4em;
+    margin-left: 2em;
   }
   .text-orange {
     font-size: 2.5em;
@@ -273,7 +282,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 160px;
+    height: 136px;
     padding: 0;
   }
   .text-carousel {
@@ -293,7 +302,7 @@ body {
     height: auto;
   }
   .bg-agency p {
-    padding-bottom: 8em;
+    padding-bottom: 7.5em;
   }
 
   ///Web-Development.html///
@@ -339,7 +348,10 @@ body {
     padding: 3em 1em 0 1em;
   }
   .bg-brand {
-    height: 58vh;
+    height: 65vh;
+  }
+  .text-brand-carousel {
+    font-size: 1.3rem;
   }
 
   ///Marketing-Lab.html///
@@ -364,11 +376,14 @@ body {
   }
   .text-grey-lab {
     color: $colour-text-dark-grey;
-    text-align: center;
+    text-align: left;
     padding-bottom: 3em;
   }
   .bg-lab {
-    height: 48vh;
+    padding-bottom: 19em;
+  }
+  .box-img-marketing {
+    text-align: left;
   }
 
   ///About-us.html///
@@ -383,10 +398,14 @@ body {
     background-image: url(../img/bg-about-us-adaptable.png);
     background-size: 100%;
     background-repeat: no-repeat;
+    padding-bottom: 14em;
   }
   .title-resp-about {
     font-size: 2.2em;
-    margin: 2em 0 1em 0;
+    margin: 2em 0 1em 0.5em;
+  }
+  .text-about {
+    padding-left: 0.5em;
   }
   .box-img-about {
     margin: auto;
@@ -396,7 +415,7 @@ body {
     margin-bottom: 3em;
   }
   .text-change {
-    padding: 3em 0 4em 0;
+    padding: 1em 0 4em 0;
   }
   .text-change h1 {
     font-size: 2.3em;
@@ -473,6 +492,9 @@ body {
   .text-prioridades {
     width: 100%;
   }
+  .padding-left-resp {
+    padding-left: 0.5em;
+  }
 
   ///Previous-assignments.html///
   .image-bg-11 {
@@ -502,7 +524,7 @@ body {
     margin-top: 1em;
   }
   .row-pd-footer {
-    padding: 4em 5em 0em 5em;
+    padding: 4em 3em 0em 3em;
   }
   .box-country-footer {
     margin-top: 2em;
