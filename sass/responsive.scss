@@ -515,6 +515,11 @@ body {
   .bg-start h1 {
     height: 375px;
   }
+  .box-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5em;
+  }
 
   /*Footer*/
   .ig-profile-image {

@@ -159,7 +159,7 @@
   top: 50%;
   height: 50px;
   width: 50px;
-  background-color: rgba(255, 206, 82, 1);
+  background-color: rgba(247, 104, 9, 0.9);
   font-size: 25px;
   line-height: 50px;
   color: rgba(255, 255, 255, 1);
@@ -188,7 +188,7 @@
 }
 
 .wrapper-inner-content-image img:nth-child(1) {
-  opacity: 1;
+  opacity: 2;
 }
 .wrapper-inner-content-image img:nth-child(2) {
   opacity: 1;
