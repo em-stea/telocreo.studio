@@ -679,6 +679,12 @@ body {
     display: none;
   }
 }
+@media screen and (max-width: 766px) {
+  /*Digital-Agency*/
+  .direction-row {
+    flex-direction: column-reverse;
+  }
+}
 @media screen and (max-width: 1300px) {
   /*Digital-Agency*/
   .box-pill {
@@ -689,18 +695,23 @@ body {
     width: 100%;
   }
   .hover-orange {
-    width: 94%;
+    width: 100%;
   }
   .hover-green {
-    width: 94%;
+    width: 100%;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1300px) {
+@media screen and (min-width: 768px) and (max-width: 992px) {
   /*Digital-Agency*/
-  .hover-orange {
-    width: 87%;
+  .box-pill {
+    width: 23%;
+    margin-right: 0.5em;
   }
-  .hover-green {
-    width: 87%;
+}
+@media screen and (min-width: 993px) and (max-width: 1300px) {
+  /*Digital-Agency*/
+  .box-pill {
+    width: 24%;
+    margin-right: 0.5em;
   }
 }

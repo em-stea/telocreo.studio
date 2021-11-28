@@ -639,6 +639,7 @@ footer {
 .box-pill {
   position: relative;
   margin-bottom: 1.5em;
+  padding: 0;
 }
 .active {
   @extend %module-pill;
