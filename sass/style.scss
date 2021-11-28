@@ -591,6 +591,7 @@ footer {
 .title-pills {
   font-weight: 800;
   color: $colour-text-violet;
+  margin-bottom: 0;
 }
 .arrow-animation {
   margin: 1em 0;
@@ -625,33 +626,53 @@ footer {
 }
 %module-pill {
   color: $colour-text-white;
-  width: 192px;
-  height: 124px;
+  width: 300px;
+  height: 100px;
   padding: 15px;
-  font-weight: 800;
   border-radius: 9px;
   cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 .box-pill {
   position: relative;
+  margin-bottom: 1.5em;
 }
 .active {
   @extend %module-pill;
-  background-color: $colour-text-green;
+  font-size: 20px;
+  font-weight: 800;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.2);
   &:hover {
     opacity: 0;
+    //transition: 0.3s ease;
   }
 }
-.hover {
-  @extend %module-pill;
+.pill-orange {
   background-color: $colour-text-orange;
+}
+.pill-green {
+  background-color: $colour-text-green;
+}
+.hover-orange {
+  @extend %module-pill;
+  font-weight: 600;
   position: absolute;
   z-index: -1;
   top: 0;
+  background-color: rgb(253, 51, 0);
 }
+.hover-green {
+  @extend %module-pill;
+  font-weight: 600;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  background-color: rgb(0, 139, 116);
+}
+
 /*
 .carousel-caption {
   display: flex;

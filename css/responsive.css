@@ -332,23 +332,17 @@ body {
   .text-orange {
     font-size: 2.5em;
   }
-  .carousel-caption {
-    display: -webkit-box;
-    display: -ms-flexbox;
+  /*.carousel-caption {
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    align-items: center;
+    justify-content: center;
     height: 136px;
     padding: 0;
   }
   .text-carousel {
     font-size: 1.5rem;
     padding-bottom: 0;
-  }
+  }*/
   .title-agency {
     font-size: 2.5em;
     padding: 4em 1em 0 1em;
@@ -853,5 +847,36 @@ body {
 @media screen and (max-width: 983px) {
   .navbar-brand {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  /*Digital-Agency*/
+  .box-pill {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .active {
+    width: 100%;
+  }
+  .hover-orange {
+    width: 92%;
+  }
+  .hover-green {
+    width: 92%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+  /*Digital-Agency*/
+  .hover-orange {
+    width: 87%;
+  }
+  .hover-green {
+    width: 87%;
   }
 }

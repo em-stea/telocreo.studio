@@ -803,6 +803,7 @@ footer {
 .title-pills {
   font-weight: 800;
   color: #7305ae;
+  margin-bottom: 0;
 }
 
 .arrow-animation {
@@ -864,12 +865,11 @@ footer {
   }
 }
 
-.active, .hover {
+.active, .hover-orange, .hover-green {
   color: white;
-  width: 192px;
-  height: 124px;
+  width: 300px;
+  height: 100px;
   padding: 15px;
-  font-weight: 800;
   border-radius: 9px;
   cursor: pointer;
   display: -webkit-box;
@@ -881,25 +881,46 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  text-align: center;
 }
 
 .box-pill {
   position: relative;
+  margin-bottom: 1.5em;
 }
 
 .active {
-  background-color: #1cceb8;
+  font-size: 20px;
+  font-weight: 800;
+  text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.2);
 }
 
 .active:hover {
   opacity: 0;
 }
 
-.hover {
+.pill-orange {
   background-color: #f76809;
+}
+
+.pill-green {
+  background-color: #1cceb8;
+}
+
+.hover-orange {
+  font-weight: 600;
   position: absolute;
   z-index: -1;
   top: 0;
+  background-color: #fd3300;
+}
+
+.hover-green {
+  font-weight: 600;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  background-color: #008b74;
 }
 
 /*
