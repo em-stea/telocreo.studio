@@ -198,7 +198,7 @@ p {
   padding-top: 24px;
 }
 .text-quienes-somos strong {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
   font-weight: 800;
 }
 .text-quienes-somos span {
@@ -249,7 +249,7 @@ p {
   font-weight: 700;
 }
 .box-highlight .text-highlight {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
 }
 .line-spacing {
   margin-bottom: 1em;
@@ -272,7 +272,7 @@ p {
   text-align: left;
 }
 .card-text {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
   font-weight: 700;
 }
 .text-block {
@@ -306,10 +306,10 @@ p {
 /*Carousel Client*/
 .bg-client {
   text-align: center;
-  color: $colour-text-blue;
+  color: $colour-text-violet;
   background-image: url(../img/bg-client.png);
   background-size: cover;
-  padding-bottom: 13em;
+  padding-bottom: 20em;
 }
 .title-client {
   padding-top: 4em;
@@ -337,14 +337,14 @@ footer {
   margin-right: 0.5em;
 }
 .contact-icons i:hover {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
 }
 .contact-icons a {
   text-decoration: none;
   color: $colour-text-white;
 }
 .contact-icons a:hover {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
 }
 .ig-profile-image {
   width: 40%;
@@ -427,7 +427,7 @@ footer {
   @extend %module-padding;
 }
 .box-coffee .agency-text {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
 }
 .box-text-align {
   text-align: center;
@@ -440,7 +440,7 @@ footer {
   color: $colour-text-orange;
 }
 .box-text-align h1 span {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
 }
 .text-green {
   font-weight: 800;
@@ -463,7 +463,7 @@ footer {
   @extend %module-padding;
 }
 .first-title {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
 }
 .second-title {
   color: $colour-text-green;
@@ -525,7 +525,7 @@ footer {
   padding: 3.2em !important;
 }
 .bg-download p {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
 }
 .icon-descarga {
   color: $colour-text-green;
@@ -541,7 +541,7 @@ footer {
   margin-top: 1em;
 }
 .btn-download {
-  background-color: $colour-text-blue;
+  background-color: $colour-text-violet;
   color: $colour-text-white;
   font-size: 18px;
   font-weight: 700;
@@ -588,6 +588,71 @@ footer {
 .picture-agency {
   width: 85%;
 }
+.title-pills {
+  font-weight: 800;
+  color: $colour-text-violet;
+}
+.arrow-animation {
+  margin: 1em 0;
+  font-size: 25px;
+  color: $colour-text-green;
+  animation-name: arrowDown;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+@keyframes arrowDown {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 0;
+    top: 15px;
+  }
+  50% {
+    left: 0;
+    top: 0px;
+  }
+  75% {
+    left: 0;
+    top: 15px;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+%module-pill {
+  color: $colour-text-white;
+  width: 192px;
+  height: 124px;
+  padding: 15px;
+  font-weight: 800;
+  border-radius: 9px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-pill {
+  position: relative;
+}
+.active {
+  @extend %module-pill;
+  background-color: $colour-text-green;
+  &:hover {
+    opacity: 0;
+  }
+}
+.hover {
+  @extend %module-pill;
+  background-color: $colour-text-orange;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+/*
 .carousel-caption {
   display: flex;
   align-items: center;
@@ -606,10 +671,9 @@ footer {
   height: 10px;
   border-radius: 10px;
   margin-bottom: 1em;
-}
+}*/
 .bg-agency {
   text-align: center;
-  color: $colour-text-blue;
   background-image: url(../img/bg-agency.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -638,12 +702,12 @@ footer {
   font-weight: 800;
 }
 .text-blue {
-  color: $colour-text-blue;
+  color: $colour-text-violet;
   font-weight: 800;
 }
 .bg-web {
   text-align: center;
-  color: $colour-text-blue;
+  color: $colour-text-violet;
   background-image: url(../img/bg-web.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -653,7 +717,7 @@ footer {
   font-size: 2.5em;
   padding-top: 4.5em;
   font-weight: 700;
-  color: $colour-text-blue;
+  color: $colour-text-violet;
 }
 .text-reg {
   font-weight: 500 !important;
@@ -727,7 +791,7 @@ footer {
 .text-carousel-lab-2 {
   font-size: 3rem;
   font-weight: 800;
-  color: $colour-text-blue;
+  color: $colour-text-violet;
 }
 .title-lab {
   color: $colour-text-red;
@@ -765,7 +829,7 @@ footer {
 }
 .bg-why {
   text-align: center;
-  color: $colour-text-blue;
+  color: $colour-text-violet;
   background-image: url(../img/bg-about-us.png);
   background-size: cover;
   padding-bottom: 10em;
@@ -826,7 +890,7 @@ footer {
 }
 .bg-team {
   text-align: center;
-  color: $colour-text-blue;
+  color: $colour-text-violet;
   background-image: url(../img/bg-our-team.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -853,7 +917,7 @@ footer {
 }
 .text-team {
   font-weight: 800;
-  color: $colour-text-blue;
+  color: $colour-text-violet;
   text-align: center;
   margin: 2em 0 1em 0;
 }
@@ -921,4 +985,9 @@ footer {
 }
 .box-wrapper {
   margin-bottom: 2em;
+}
+
+/*Link-coffee*/
+.link-coffee {
+  text-decoration: none;
 }

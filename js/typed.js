@@ -1,18 +1,3 @@
-/*let animado = document.querySelectorAll(".animated");
-
-function showScroll() {
-  let scrollTop = document.documentElement.scrollTop;
-  for (var i = 0; i < animado.length; i++) {
-    let highAnimado = animado[i].offsetTop;
-    if (highAnimado - 500 < scrollTop) {
-      animado[i].style.opacity = 1;
-      animado[i].classList.add("showTop");
-    }
-  }
-}
-
-window.addEventListener("scroll", showScroll);*/
-
 //Home Typed Text
 const typed = new Typed(".typed", {
   strings: [

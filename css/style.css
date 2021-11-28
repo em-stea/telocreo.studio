@@ -277,7 +277,7 @@ p {
 }
 
 .text-quienes-somos strong {
-  color: #00349b;
+  color: #7305ae;
   font-weight: 800;
 }
 
@@ -344,7 +344,7 @@ p {
 }
 
 .box-highlight .text-highlight {
-  color: #00349b;
+  color: #7305ae;
 }
 
 .line-spacing {
@@ -373,7 +373,7 @@ p {
 }
 
 .card-text {
-  color: #00349b;
+  color: #7305ae;
   font-weight: 700;
 }
 
@@ -415,10 +415,10 @@ p {
 /*Carousel Client*/
 .bg-client {
   text-align: center;
-  color: #00349b;
+  color: #7305ae;
   background-image: url(../img/bg-client.png);
   background-size: cover;
-  padding-bottom: 13em;
+  padding-bottom: 20em;
 }
 
 .title-client {
@@ -452,7 +452,7 @@ footer {
 }
 
 .contact-icons i:hover {
-  color: #00349b;
+  color: #7305ae;
 }
 
 .contact-icons a {
@@ -461,7 +461,7 @@ footer {
 }
 
 .contact-icons a:hover {
-  color: #00349b;
+  color: #7305ae;
 }
 
 .ig-profile-image {
@@ -579,7 +579,7 @@ footer {
 }
 
 .box-coffee .agency-text {
-  color: #00349b;
+  color: #7305ae;
 }
 
 .box-text-align {
@@ -597,7 +597,7 @@ footer {
 }
 
 .box-text-align h1 span {
-  color: #00349b;
+  color: #7305ae;
 }
 
 .text-green {
@@ -630,7 +630,7 @@ footer {
 }
 
 .first-title {
-  color: #00349b;
+  color: #7305ae;
 }
 
 .second-title {
@@ -718,7 +718,7 @@ footer {
 }
 
 .bg-download p {
-  color: #00349b;
+  color: #7305ae;
 }
 
 .icon-descarga {
@@ -738,7 +738,7 @@ footer {
 }
 
 .btn-download {
-  background-color: #00349b;
+  background-color: #7305ae;
   color: white;
   font-size: 18px;
   font-weight: 700;
@@ -800,25 +800,120 @@ footer {
   width: 85%;
 }
 
-.carousel-caption {
+.title-pills {
+  font-weight: 800;
+  color: #7305ae;
+}
+
+.arrow-animation {
+  margin: 1em 0;
+  font-size: 25px;
+  color: #1cceb8;
+  -webkit-animation-name: arrowDown;
+          animation-name: arrowDown;
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  position: relative;
+}
+
+@-webkit-keyframes arrowDown {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 0;
+    top: 15px;
+  }
+  50% {
+    left: 0;
+    top: 0px;
+  }
+  75% {
+    left: 0;
+    top: 15px;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+
+@keyframes arrowDown {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 0;
+    top: 15px;
+  }
+  50% {
+    left: 0;
+    top: 0px;
+  }
+  75% {
+    left: 0;
+    top: 15px;
+  }
+  100% {
+    left: 0;
+    top: 0px;
+  }
+}
+
+.active, .hover {
+  color: white;
+  width: 192px;
+  height: 124px;
+  padding: 15px;
+  font-weight: 800;
+  border-radius: 9px;
+  cursor: pointer;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box-pill {
+  position: relative;
+}
+
+.active {
+  background-color: #1cceb8;
+}
+
+.active:hover {
+  opacity: 0;
+}
+
+.hover {
+  background-color: #f76809;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+}
+
+/*
+.carousel-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 350px;
   padding: 0;
 }
-
 .text-carousel {
   font-size: 3rem;
   font-weight: 800;
 }
-
 .carousel-indicators [data-bs-target] {
   border-top: 0;
   border-bottom: 0;
@@ -826,11 +921,9 @@ footer {
   height: 10px;
   border-radius: 10px;
   margin-bottom: 1em;
-}
-
+}*/
 .bg-agency {
   text-align: center;
-  color: #00349b;
   background-image: url(../img/bg-agency.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -866,13 +959,13 @@ footer {
 }
 
 .text-blue {
-  color: #00349b;
+  color: #7305ae;
   font-weight: 800;
 }
 
 .bg-web {
   text-align: center;
-  color: #00349b;
+  color: #7305ae;
   background-image: url(../img/bg-web.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -883,7 +976,7 @@ footer {
   font-size: 2.5em;
   padding-top: 4.5em;
   font-weight: 700;
-  color: #00349b;
+  color: #7305ae;
 }
 
 .text-reg {
@@ -978,7 +1071,7 @@ footer {
 .text-carousel-lab-2 {
   font-size: 3rem;
   font-weight: 800;
-  color: #00349b;
+  color: #7305ae;
 }
 
 .title-lab {
@@ -1026,7 +1119,7 @@ footer {
 
 .bg-why {
   text-align: center;
-  color: #00349b;
+  color: #7305ae;
   background-image: url(../img/bg-about-us.png);
   background-size: cover;
   padding-bottom: 10em;
@@ -1104,7 +1197,7 @@ footer {
 
 .bg-team {
   text-align: center;
-  color: #00349b;
+  color: #7305ae;
   background-image: url(../img/bg-our-team.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -1137,7 +1230,7 @@ footer {
 
 .text-team {
   font-weight: 800;
-  color: #00349b;
+  color: #7305ae;
   text-align: center;
   margin: 2em 0 1em 0;
 }
@@ -1238,4 +1331,9 @@ footer {
 
 .box-wrapper {
   margin-bottom: 2em;
+}
+
+/*Link-coffee*/
+.link-coffee {
+  text-decoration: none;
 }
