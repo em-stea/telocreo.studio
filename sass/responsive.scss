@@ -150,6 +150,8 @@ body {
   .bg-conocenos {
     padding: 0;
     @include img-long-responsive;
+    height: 184px;
+    padding-top: 0.5em;
   }
   .height-text {
     height: 20px;
@@ -180,21 +182,29 @@ body {
     padding-top: 6px;
   }
   .bg-business p {
-    margin-top: 0.5em;
     font-size: 16px;
   }
   /*Client*/
-  .bg-client {
+  /*.bg-client {
     text-align: center;
     color: $colour-text-violet;
     background-image: url(../img/bg-client-adaptable.png);
     background-size: 100%;
     background-repeat: no-repeat;
     padding-bottom: 19em;
-  }
+  }*/
   .title-client {
     padding-top: 2em;
     font-size: 2.2em;
+  }
+  //Coffee//
+  .image-bg-02 {
+    @include img-top-responsive;
+    padding: 2em 0 2.6em 0 !important;
+  }
+  .box-coffee {
+    font-size: 33px;
+    padding: 3.4em 0 0 0.7em;
   }
 
   ///Test-Page.html///
@@ -223,6 +233,10 @@ body {
   ///Freeblioteca.html///
   .image-bg-04 {
     @include img-top-responsive;
+  }
+  .box-test-freeblioteca {
+    font-size: 47px;
+    padding: 4.3em 0 0 0.5em;
   }
   .box-test-2 {
     font-size: 50px;
@@ -269,7 +283,7 @@ body {
   }
   .box-test-3 {
     font-size: 50px;
-    padding: 3.4em 0 0 0.7em;
+    padding: 2.7em 0 0 0.7em;
   }
   .picture-agency {
     margin-top: 4em;
@@ -291,7 +305,7 @@ body {
   }*/
   .title-agency {
     font-size: 2.5em;
-    padding: 4em 1em 0 1em;
+    padding: 3em 1em 0 1em;
   }
   .bg-agency {
     text-align: center;
@@ -299,7 +313,7 @@ body {
     background-image: url(../img/bg-agency-adaptable.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: auto;
+    height: 50vh;
   }
   .bg-agency p {
     padding-bottom: 7.5em;
@@ -328,6 +342,10 @@ body {
   .bg-web p {
     padding-bottom: 4em;
   }
+  .box-test-web {
+    font-size: 40px;
+    padding: 3.7em 0 0 0.7em;
+  }
 
   ///Creative-brand.html///
   .image-bg-07 {
@@ -344,14 +362,20 @@ body {
     font-size: 3em;
   }
   .title-brand {
-    font-size: 3em;
-    padding: 3em 1em 0 1em;
-  }
-  .bg-brand {
-    height: 65vh;
+    font-size: 2.3em;
+    padding: 2.5em 1em 0 1em;
   }
   .text-brand-carousel {
     font-size: 1.3rem;
+  }
+  .bg-light-pills {
+    padding-top: 3em;
+  }
+  .text-violet {
+    margin-top: 3em;
+  }
+  .text-grey-light {
+    margin-bottom: 0;
   }
 
   ///Marketing-Lab.html///
@@ -362,11 +386,14 @@ body {
   }
   .title-resp-lab {
     font-size: 2.5em;
-    margin: 2em 0 1em 0;
+    margin: 1em 0 1em 0;
   }
   .box-img-marketing {
-    width: auto;
     margin-bottom: 3em;
+    text-align: center;
+  }
+  .box-img-marketing img {
+    width: 80%;
   }
   .text-carousel-lab-1 {
     font-size: 2rem;
@@ -382,8 +409,8 @@ body {
   .bg-lab {
     padding-bottom: 19em;
   }
-  .box-img-marketing {
-    text-align: left;
+  .text-want-to {
+    padding: 6em 0 3em 0;
   }
 
   ///About-us.html///
@@ -392,17 +419,9 @@ body {
     padding: 2em 0 2.6em 0 !important;
     margin-bottom: 0;
   }
-  .bg-why {
-    text-align: center;
-    color: $colour-text-violet;
-    background-image: url(../img/bg-about-us-adaptable.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding-bottom: 14em;
-  }
   .title-resp-about {
     font-size: 2.2em;
-    margin: 2em 0 1em 0.5em;
+    margin: 2em 0 1em 0.3em;
   }
   .text-about {
     padding-left: 0.5em;
@@ -415,22 +434,19 @@ body {
     margin-bottom: 3em;
   }
   .text-change {
-    padding: 1em 0 4em 0;
+    padding: 4em 0 4em 0;
   }
   .text-change h1 {
     font-size: 2.3em;
   }
-  .bg-about-2 {
-    background-image: url(../img/bg-about-us-2-adaptable.png);
-    @include img-long;
-    margin-bottom: -9.6em;
-    color: $colour-text-white;
-    text-align: center;
-  }
   .bg-about-2 h1 {
     font-size: 2em;
-    padding-top: 4em;
   }
+  .bg-about-2 {
+    height: 389px;
+    margin-bottom: 0;
+  }
+
   ///Our-team.html///
   .image-bg-10 {
     @include img-top-responsive;
@@ -472,12 +488,17 @@ body {
   .text-resp {
     font-size: 2em;
   }
+  .box-text-team {
+    font-size: 1.8em;
+    height: 450px;
+    background-position: top center;
+    padding: 1.2em;
+  }
   .bg-text-team {
-    background-image: url(../img/bg-our-team-grey-adaptable.png);
     @include img-long;
-    margin-bottom: -9.6em;
     color: $colour-text-white;
     text-align: center;
+    height: 400px;
   }
   .bg-text-team .text-bottom-team {
     width: 100%;
@@ -494,6 +515,9 @@ body {
   }
   .padding-left-resp {
     padding-left: 0.5em;
+  }
+  .sentence-our-team h2 {
+    font-size: 20px;
   }
 
   ///Previous-assignments.html///
@@ -512,8 +536,8 @@ body {
     color: $colour-text-white;
     text-align: center;
   }
-  .bg-start h1 {
-    height: 375px;
+  .bg-start a {
+    height: 318px;
   }
   .box-wrapper {
     display: flex;

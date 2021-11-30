@@ -4,7 +4,7 @@ $nombre = $_POST['nombre'];
 $email = $_POST['email'];
 $mensaje = $_POST['mensaje'];
 
-$email_to = "emiliastea@hotmail.com"; 
+$email_to = "hola@telocreo.studio"; 
 $asunto = "Consulta desde la Web Telocreo";
 $contenido = "$nombre ha enviado un mensaje desde la web www.telocreo.studio\n"
 . "\n"
