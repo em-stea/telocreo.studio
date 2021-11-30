@@ -17,7 +17,100 @@ body {
 @media screen and (max-width: 425px) {
   /*Home*/
   .box-text {
-    left: 31px;
+    left: 11px;
+  }
+  .box-home p {
+    font-size: 38px;
+    top: 7.8em;
+  }
+  .box-text {
+    text-align: center;
+    top: 9.5em;
+    height: 29px;
+    font-size: 28px;
+    line-height: 28px;
+  }
+  @-webkit-keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    15% {
+      margin-top: -28px;
+    }
+    25% {
+      margin-top: -28px;
+    }
+    35% {
+      margin-top: -56px;
+    }
+    45% {
+      margin-top: -56px;
+    }
+    50% {
+      margin-top: -84px;
+    }
+    60% {
+      margin-top: -84px;
+    }
+    70% {
+      margin-top: -56px;
+    }
+    80% {
+      margin-top: -56px;
+    }
+    90% {
+      margin-top: -28px;
+    }
+    95% {
+      margin-top: -28px;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+  @keyframes rotator-text {
+    0% {
+      margin-top: 0;
+    }
+    10% {
+      margin-top: 0;
+    }
+    15% {
+      margin-top: -28px;
+    }
+    25% {
+      margin-top: -28px;
+    }
+    35% {
+      margin-top: -56px;
+    }
+    45% {
+      margin-top: -56px;
+    }
+    50% {
+      margin-top: -84px;
+    }
+    60% {
+      margin-top: -84px;
+    }
+    70% {
+      margin-top: -56px;
+    }
+    80% {
+      margin-top: -56px;
+    }
+    90% {
+      margin-top: -28px;
+    }
+    95% {
+      margin-top: -28px;
+    }
+    100% {
+      margin-top: 0;
+    }
   }
 }
 
@@ -26,68 +119,19 @@ body {
   .box-text {
     left: 13px;
   }
-}
-
-@media screen and (min-width: 501px) and (max-width: 700px) {
-  /*Home*/
-  .box-text {
-    left: 85px;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  /*Navbar*/
-  .navbar {
-    position: fixed;
-    background-color: white;
-    padding: 14px 0;
-  }
-  .navbar-nav {
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    margin-left: 0.3em;
-    margin-top: 1em;
-  }
-  .dropdown-toggle {
-    text-align: start;
-  }
-  .dropdown-menu {
-    text-align: start;
-  }
-  .nav-link {
-    margin-right: 6px;
-  }
-  #coffee {
-    margin-top: auto;
-  }
-  #coffee a {
-    padding: 20px 0;
-  }
-  #coffee p {
-    text-align: center;
-    padding-right: 0;
-  }
-  /*Home*/
-  .image-bg {
-    background-size: cover;
-    background-position: top center;
-    height: 65vh;
-    margin-bottom: 3em;
-  }
-  .box-home p {
-    font-size: 42px;
-    position: absolute;
-    top: 390px;
-    text-align: center;
-    padding: 0 30px;
-  }
   .box-text {
     text-align: center;
     top: 9.5em;
     height: 33px;
     font-size: 32px;
     line-height: 32px;
+  }
+  .box-home p {
+    font-size: 42px;
+    position: absolute;
+    top: 330px;
+    text-align: center;
+    padding: 0 30px;
   }
   @-webkit-keyframes rotator-text {
     0% {
@@ -170,6 +214,55 @@ body {
     100% {
       margin-top: 0;
     }
+  }
+}
+
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  /*Home*/
+  .box-text {
+    left: 85px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  /*Navbar*/
+  .navbar {
+    position: fixed;
+    background-color: white;
+    padding: 14px 0;
+  }
+  .navbar-nav {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 0.3em;
+    margin-top: 1em;
+  }
+  .dropdown-toggle {
+    text-align: start;
+  }
+  .dropdown-menu {
+    text-align: start;
+  }
+  .nav-link {
+    margin-right: 6px;
+  }
+  #coffee {
+    margin-top: auto;
+  }
+  #coffee a {
+    padding: 20px 0;
+  }
+  #coffee p {
+    text-align: center;
+    padding-right: 0;
+  }
+  /*Home*/
+  .image-bg {
+    background-size: cover;
+    background-position: top center;
+    height: 65vh;
+    margin-bottom: 3em;
   }
   /*Quienes Somos*/
   .title-quienes-somos {
@@ -369,10 +462,10 @@ body {
     background-image: url(../img/bg-agency-adaptable.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 55vh;
   }
   .bg-agency p {
-    padding-bottom: 7.5em;
+    padding-bottom: 1em;
   }
   .image-bg-06 {
     background-size: cover;
@@ -388,6 +481,7 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     height: auto;
+    padding-bottom: 3em;
   }
   .title-web {
     font-size: 2.2em;
@@ -397,7 +491,7 @@ body {
     font-size: 2.5em;
   }
   .bg-web p {
-    padding-bottom: 4em;
+    padding-bottom: 1em;
   }
   .box-test-web {
     font-size: 40px;
@@ -440,6 +534,9 @@ body {
   .text-grey-light {
     margin-bottom: 0;
   }
+  .picture-brand {
+    margin-top: 4em;
+  }
   .image-bg-08 {
     background-size: cover;
     background-position: top center;
@@ -451,6 +548,9 @@ body {
   .title-resp-lab {
     font-size: 2.5em;
     margin: 1em 0 1em 0;
+  }
+  .title-lab {
+    margin-bottom: 0.7em;
   }
   .box-img-marketing {
     margin-bottom: 3em;
