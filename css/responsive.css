@@ -17,7 +17,7 @@ body {
 @media screen and (max-width: 425px) {
   /*Home*/
   .box-text {
-    left: 26px;
+    left: 29px;
   }
   .box-home p {
     font-size: 38px;
