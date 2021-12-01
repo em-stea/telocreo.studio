@@ -966,6 +966,7 @@ footer {
   font-size: 20px;
   font-weight: 800;
   text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.2);
+  cursor: default;
 }
 
 .actived:hover {
@@ -1487,5 +1488,5 @@ footer {
 }
 
 .coffee-size {
-  font-size: 20px;
+  font-size: 40px;
 }
