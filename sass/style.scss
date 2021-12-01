@@ -768,7 +768,7 @@ footer {
   background-image: url(../img/bg-web.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 75vh;
+  height: 65vh;
 }
 .title-web {
   font-size: 2.5em;
@@ -826,7 +826,7 @@ footer {
 }
 .bg-brand {
   text-align: center;
-  height: 75vh;
+  height: 60vh;
 }
 .bg-brand p {
   color: $colour-text-dark-grey;
@@ -859,6 +859,7 @@ footer {
   color: $colour-text-red;
   font-weight: 800;
   font-size: 2.5em;
+  margin: 0.5em;
 }
 .bg-lab {
   background-color: #eeeeee;
