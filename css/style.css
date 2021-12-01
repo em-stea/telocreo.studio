@@ -1078,6 +1078,14 @@ footer {
   width: 85%;
 }
 
+.box-img-web {
+  text-align: end;
+}
+
+.box-web {
+  padding-left: 16em;
+}
+
 .image-bg-07 {
   background-image: url(../img/bg-07.png);
   background-size: contain;
