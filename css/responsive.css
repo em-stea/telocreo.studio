@@ -593,10 +593,11 @@ body {
   }
   .box-img-about {
     margin: auto;
+    width: 80%;
+    margin-top: 2em;
   }
   .box-img-about img {
     width: 100%;
-    margin-bottom: 3em;
   }
   .text-change {
     padding: 4em 0 4em 0;
