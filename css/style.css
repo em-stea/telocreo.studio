@@ -838,6 +838,10 @@ footer {
   margin-bottom: 7em;
 }
 
+.text-freeblioteca {
+  width: 80%;
+}
+
 .image-bg-05 {
   background-image: url(../img/bg-05.png);
   background-size: contain;
@@ -933,7 +937,7 @@ footer {
   }
 }
 
-.active, .hover-orange, .hover-green {
+.actived, .hover-orange, .hover-green {
   color: white;
   width: 300px;
   height: 100px;
@@ -958,13 +962,13 @@ footer {
   padding: 0;
 }
 
-.active {
+.actived {
   font-size: 20px;
   font-weight: 800;
   text-shadow: 0.1em 0.1em 0.1em rgba(0, 0, 0, 0.2);
 }
 
-.active:hover {
+.actived:hover {
   opacity: 0;
 }
 
@@ -984,6 +988,10 @@ footer {
   background-color: #fd3300;
 }
 
+.hover-orange p {
+  width: 85%;
+}
+
 .hover-green {
   font-weight: 600;
   position: absolute;
@@ -992,26 +1000,10 @@ footer {
   background-color: #008b74;
 }
 
-/*
-.carousel-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 350px;
-  padding: 0;
+.hover-green p {
+  width: 85%;
 }
-.text-carousel {
-  font-size: 3rem;
-  font-weight: 800;
-}
-.carousel-indicators [data-bs-target] {
-  border-top: 0;
-  border-bottom: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  margin-bottom: 1em;
-}*/
+
 .bg-agency {
   text-align: center;
   background-image: url(../img/bg-agency.png);
@@ -1238,7 +1230,7 @@ footer {
 }
 
 .text-change {
-  padding: 8em 0 7em 0;
+  padding: 4em 0 0 0;
 }
 
 .text-change h1 {
@@ -1275,6 +1267,11 @@ footer {
 
 .box-images {
   margin-top: 6em;
+}
+
+.text-about {
+  width: 80%;
+  margin: auto;
 }
 
 .image-bg-10 {
@@ -1349,16 +1346,40 @@ footer {
   margin: 2em 0 1em 0;
 }
 
-/*.carousel-team {
+.carousel {
+  height: 427px;
+  margin: 4em 0;
+}
+
+.carousel-inner {
+  height: 438px;
+}
+
+.carousel-item {
+  padding: 0;
+  height: 427px;
+  width: 100%;
+}
+
+.carousel-caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 320px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 350px;
   padding: 0;
 }
-.box-carousel-team {
-  margin: 5em 0 5em 0;
-}*/
+
+.text-carousel {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
 .img-prioridades {
   width: 65%;
 }
@@ -1462,5 +1483,9 @@ footer {
 
 .link-coffee-grey {
   text-decoration: none;
-  color: #707070;
+  color: #5c5b5b;
+}
+
+.coffee-size {
+  font-size: 20px;
 }

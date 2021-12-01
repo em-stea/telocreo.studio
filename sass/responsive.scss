@@ -345,17 +345,7 @@ body {
   .text-orange {
     font-size: 2.5em;
   }
-  /*.carousel-caption {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 136px;
-    padding: 0;
-  }
-  .text-carousel {
-    font-size: 1.5rem;
-    padding-bottom: 0;
-  }*/
+
   .title-agency {
     font-size: 2.5em;
     padding: 3em 1em 0 1em;
@@ -434,6 +424,12 @@ body {
   .picture-brand {
     margin-top: 4em;
   }
+  .hover-green p {
+    width: 70%;
+  }
+  .hover-orange p {
+    width: 70%;
+  }
 
   ///Marketing-Lab.html///
   .image-bg-08 {
@@ -454,12 +450,6 @@ body {
   }
   .box-img-marketing img {
     width: 80%;
-  }
-  .text-carousel-lab-1 {
-    font-size: 2rem;
-  }
-  .text-carousel-lab-2 {
-    font-size: 2rem;
   }
   .text-grey-lab {
     color: $colour-text-dark-grey;
@@ -506,6 +496,9 @@ body {
   .bg-about-2 {
     height: 389px;
     margin-bottom: 0;
+  }
+  .text-about {
+    width: 100%;
   }
 
   ///Our-team.html///
@@ -579,6 +572,31 @@ body {
   }
   .sentence-our-team h2 {
     font-size: 20px;
+  }
+  .carousel {
+    height: 190px;
+    margin: 3em 0;
+  }
+  .carousel-inner {
+    height: 190px;
+  }
+  .carousel-item {
+    height: 190px;
+  }
+  .carousel-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 136px;
+    padding: 0;
+  }
+  .text-carousel {
+    font-size: 1.5rem;
+    padding-bottom: 0;
+  }
+
+  .carousel-item img {
+    height: 185px;
   }
 
   ///Previous-assignments.html///
@@ -776,7 +794,7 @@ body {
     display: flex;
     justify-content: center;
   }
-  .active {
+  .actived {
     width: 100%;
   }
   .hover-orange {
@@ -800,9 +818,17 @@ body {
     margin-right: 0.5em;
   }
 }
+@media screen and (min-width: 1000px) and (max-width: 1348px) {
+  .carousel-caption {
+    height: 404px;
+  }
+  .carousel {
+    height: 378px;
+  }
+}
 @media screen and (min-width: 1300px) and (max-width: 1400px) {
   /*Pills*/
-  .active {
+  .actived {
     width: 265px;
   }
   .hover-orange {
@@ -810,5 +836,9 @@ body {
   }
   .hover-green {
     width: 265px;
+  }
+  .bg-about-2 h1 {
+    width: 90%;
+    margin: auto;
   }
 }

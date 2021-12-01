@@ -608,6 +608,9 @@ footer {
 .box-download {
   margin-bottom: 7em;
 }
+.text-freeblioteca {
+  width: 80%;
+}
 
 ///Digital-Agency.html///
 .image-bg-05 {
@@ -682,7 +685,7 @@ footer {
   margin-bottom: 1.5em;
   padding: 0;
 }
-.active {
+.actived {
   @extend %module-pill;
   font-size: 20px;
   font-weight: 800;
@@ -706,6 +709,9 @@ footer {
   top: 0;
   background-color: rgb(253, 51, 0);
 }
+.hover-orange p {
+  width: 85%;
+}
 .hover-green {
   @extend %module-pill;
   font-weight: 600;
@@ -714,27 +720,10 @@ footer {
   top: 0;
   background-color: rgb(0, 139, 116);
 }
+.hover-green p {
+  width: 85%;
+}
 
-/*
-.carousel-caption {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 350px;
-  padding: 0;
-}
-.text-carousel {
-  font-size: 3rem;
-  font-weight: 800;
-}
-.carousel-indicators [data-bs-target] {
-  border-top: 0;
-  border-bottom: 0;
-  width: 10px;
-  height: 10px;
-  border-radius: 10px;
-  margin-bottom: 1em;
-}*/
 .bg-agency {
   text-align: center;
   background-image: url(../img/bg-agency.png);
@@ -913,7 +902,7 @@ footer {
   font-weight: 800;
 }
 .text-change {
-  padding: 8em 0 7em 0;
+  padding: 4em 0 0 0;
 }
 .text-change h1 {
   font-size: 2.5em;
@@ -941,6 +930,10 @@ footer {
 }
 .box-images {
   margin-top: 6em;
+}
+.text-about {
+  width: 80%;
+  margin: auto;
 }
 
 ////Our-team.html///
@@ -1001,16 +994,29 @@ footer {
   text-align: center;
   margin: 2em 0 1em 0;
 }
-/*.carousel-team {
+.carousel {
+  height: 427px;
+  margin: 4em 0;
+}
+.carousel-inner {
+  height: 438px;
+}
+.carousel-item {
+  padding: 0;
+  height: 427px;
+  width: 100%;
+}
+.carousel-caption {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 320px;
+  height: 350px;
   padding: 0;
 }
-.box-carousel-team {
-  margin: 5em 0 5em 0;
-}*/
+.text-carousel {
+  font-size: 3rem;
+  font-weight: 800;
+}
 .img-prioridades {
   width: 65%;
 }
@@ -1083,5 +1089,8 @@ footer {
 }
 .link-coffee-grey {
   text-decoration: none;
-  color: $colour-text-grey;
+  color: $colour-text-dark-grey;
+}
+.coffee-size {
+  font-size: 20px;
 }
