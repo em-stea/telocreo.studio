@@ -800,3 +800,9 @@ body {
     margin-right: 0.5em;
   }
 }
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+  /*Pills*/
+  .active {
+    width: 265px;
+  }
+}
