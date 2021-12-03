@@ -520,7 +520,8 @@ footer {
   width: 35%;
 }
 .form-control {
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 2px;
 }
 .btn-send {
   background-color: $colour-text-yellow;
@@ -530,6 +531,9 @@ footer {
   border: none;
   border-radius: 5px;
   padding: 10px 0;
+}
+#mensaje {
+  line-height: 17px;
 }
 
 ///Freeblioteca.html///
@@ -563,6 +567,7 @@ footer {
   margin-bottom: 1em;
   @include text-banner;
   padding: 3.2em !important;
+  height: 484px;
 }
 .bg-download p {
   color: $colour-text-violet;
@@ -610,6 +615,22 @@ footer {
 }
 .text-freeblioteca {
   width: 80%;
+}
+.padding-text-download {
+  padding-top: 0.5em;
+}
+
+/*Modal-Freeblioteca*/
+.modal-footer {
+  border-top: none;
+}
+.btn-freeblioteca {
+  width: 100%;
+  background-color: $colour-text-green;
+  color: $colour-text-white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0.6em 0;
 }
 
 ///Digital-Agency.html///
@@ -1007,7 +1028,7 @@ footer {
   margin: 4em 0;
 }
 .carousel-inner {
-  height: 438px;
+  height: 470px;
 }
 .carousel-item {
   padding: 0;
@@ -1050,7 +1071,7 @@ footer {
   margin: 4em 0 4em 0;
 }
 .text-prioridades {
-  width: 80%;
+  width: 90%;
 }
 .sentence-our-team {
   text-align: center;

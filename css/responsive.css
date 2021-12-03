@@ -423,6 +423,9 @@ body {
     width: 50%;
     font-size: 21px;
   }
+  .padding-text-download {
+    padding-top: 0em;
+  }
   .image-bg-05 {
     background-size: cover;
     background-position: top center;

@@ -716,7 +716,8 @@ footer {
 }
 
 .form-control {
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 2px;
 }
 
 .btn-send {
@@ -727,6 +728,10 @@ footer {
   border: none;
   border-radius: 5px;
   padding: 10px 0;
+}
+
+#mensaje {
+  line-height: 17px;
 }
 
 .image-bg-04 {
@@ -782,6 +787,7 @@ footer {
   text-align: center;
   padding: 3.7em 0;
   padding: 3.2em !important;
+  height: 484px;
 }
 
 .bg-download p {
@@ -840,6 +846,24 @@ footer {
 
 .text-freeblioteca {
   width: 80%;
+}
+
+.padding-text-download {
+  padding-top: 0.5em;
+}
+
+/*Modal-Freeblioteca*/
+.modal-footer {
+  border-top: none;
+}
+
+.btn-freeblioteca {
+  width: 100%;
+  background-color: #1cceb8;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0.6em 0;
 }
 
 .image-bg-05 {
@@ -1362,7 +1386,7 @@ footer {
 }
 
 .carousel-inner {
-  height: 438px;
+  height: 470px;
 }
 
 .carousel-item {
@@ -1424,7 +1448,7 @@ footer {
 }
 
 .text-prioridades {
-  width: 80%;
+  width: 90%;
 }
 
 .sentence-our-team {
