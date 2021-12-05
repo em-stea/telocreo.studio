@@ -18,7 +18,7 @@ $st->execute($sql_params);
 
 
 /*mail destinatario y contenido a recibir*/
-$email_to = "emiliastea@hotmail.com"; 
+$email_to = "hola@telocreo.studio"; 
 $contenido = "$nombre ha enviado un mensaje desde la web de telocreo.studio<br /> Nombre: $nombre<br />Email: $email<br /> Mensaje: $mensaje";
 $asunto = "Consulta desde la Web Telocreo";
 
