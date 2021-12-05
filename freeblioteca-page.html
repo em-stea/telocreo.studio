@@ -134,120 +134,91 @@
     <!--Row Descarga Elements-->
     <div class="container box-download">
       <div class="row">
+        <!--Buyer Persona-->
         <div class="col-12 col-md-6 padding-freeblioteca-left" data-aos="fade-up" data-aos-duration="600">
           <i class="icon-descarga icon-book"></i>
           <p class="title-download">Buyer Persona</p>
           <br>
           <p class="description-download">Mini Guia para poder entender y utilizar la técnica de "Buyer Persona".</p>
-      <!--    <a href="#Buyer" rel="modal:open" class="button primary">Descargar</a>
-          <a href="pdf/EBOOK-Buyer-Persona.pdf" target="_blank" class="btn-download">Descargar</a>-->
 
           <!-- Button Buyer modal -->
-          <button type="button" class="btn btn-primary btn-download" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn btn-download" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Descargar
           </button>
         </div>
 
-        <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <p class="mb-4">Para poder descargar el Ebook de manera gratuita por favor ingresa tu correo electrónico. 
-                <br>  
-                Gracias.</p>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="mb-4">Para poder descargar el Ebook de manera gratuita por favor ingresa tu correo electrónico. 
+                  <br>  
+                  Gracias.</p>
 
-                <!--Form-->
-                <form action="validation-download-1.php" method="post">
-                  <div class="mb-3">
-                    <input type="text" class="form-control" name="nombre" placeholder="Nombre" title="Se necesita un nombre" required/>
-                  </div>
-                  <div class="mb-3">
-                    <input type="email" class="form-control" name="email" placeholder="Email" title="Se necesita un Correo Electrónico" required/>
-                  </div>
-                </form>
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-freeblioteca">Enviar</button>
+                  <!--Form-->
+                  <form action="form-procesar.php" method="post">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" name="nombre" placeholder="Nombre" title="Se necesita un nombre" required/>
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" class="form-control" name="email" placeholder="Email" title="Se necesita un Correo Electrónico" required/>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-freeblioteca">Enviar</button>
+                    </div>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-                    
 
+        <!--Community Management-->
         <div class="col-12 col-md-6 padding-freeblioteca-right" data-aos="fade-up" data-aos-delay="300" data-aos-duration="600">
           <i class="icon-descarga icon-files-empty"></i>
           <p class="title-download">Community Manager</p>
           <br>
           <p class="description-download">Mini Guia para poder comenzar tus primeros pasos como "Community Manager".</p>
-          <!--    <a href="#Community" rel="modal:open" class="button primary">Descargar</a>-->
-          <a href="pdf/EBOOK-Community-Manager.pdf" target="_blank" class="btn-download">Descargar</a>
+
+          <!-- Button Community modal -->
+          <button type="button" class="btn btn-download" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Descargar
+          </button>
         </div>
-        </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p class="mb-4">Para poder descargar el Ebook de manera gratuita por favor ingresa tu correo electrónico. 
+                  <br>  
+                  Gracias.</p>
+
+                  <!--Form-->
+                  <form action="form-procesar-2.php" method="post">
+                    <div class="mb-3">
+                      <input type="text" class="form-control" name="nombre" placeholder="Nombre" title="Se necesita un nombre" required/>
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" class="form-control" name="email" placeholder="Email" title="Se necesita un Correo Electrónico" required/>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-freeblioteca">Enviar</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
       </div>
     </div>
-
-    <!--Modal Buyer
-    <div id="Buyer" class="modal">
-      <div class="content">
-        <form action="val_free1.php" method="post">
-              <div class="row gtr-50">
-                <div class="col-12 col-12-mobile">
-                  <p>Para poder descargar el Ebook de manera gratuita por favor ingresa tu correo Electrónico. Gracias ;)</p>
-                </div>
-                <div class="col-12 col-12-mobile">
-                  <input type="text" name="nombre" placeholder="Nombre" title="Se necesita un nombre" style="background-color: #dad6bdeb;" required/>
-                </div>
-                <div class="col-12 col-12-mobile"> 
-                  <input type="email" name="email" placeholder="Email" title="Se necesita un Correo Electrónico" style="background-color: #dad6bdeb;" required/>
-                </div>
-                <input type="hidden" name="asunto" value="Descarga de PDF Buyer Persona">
-                <div class="col-12">
-                  <div class="g-recaptcha" data-sitekey="6Lfcp8AUAAAAAIHuvuFR-4Fj9IFE1gVm5Ztsnyji" required>
-                  </div>
-                </div>
-                <div class="col-12">
-                  <ul class="buttons">
-                    <li><input type="submit" class="button primary" value="Enviar" /></li>
-                  </ul>
-                </div>
-              </div>
-        </form>
-      </div>
-    </div>-->
-
-    <!--Modal Comunity
-    <div id="Community" class="modal">
-      <div class="content">
-        <form action="val_free2.php" method="post">
-          <div class="row gtr-50">
-              <div class="col-12 col-12-mobile">
-                <p>Para poder descargar el Ebook de manera gratuita por favor ingresa tu correo Electrónico. Gracias ;)</p>
-              </div>
-              <div class="col-12 col-12-mobile">
-                <input type="text" name="nombre" placeholder="Nombre" title="Se necesita un nombre" style="background-color: #dad6bdeb;" required/>
-              </div>
-              <div class="col-12 col-12-mobile"> 
-                <input type="email" name="email" placeholder="Email" title="Se necesita un Correo Electrónico" style="background-color: #dad6bdeb;" required/>
-              </div>
-              <input type="hidden" name="asunto" value="Descarga de PDF Community Manager">
-              <div class="col-12">
-                <div class="g-recaptcha" data-sitekey="6Lfcp8AUAAAAAIHuvuFR-4Fj9IFE1gVm5Ztsnyji" required>
-                </div>
-              </div>
-              <div class="col-12">
-                <ul class="buttons">
-                  <li><input type="submit" class="button primary" value="Enviar" /></li>
-                </ul>
-              </div>
-          </div>
-        </form>
-      </div>
-    </div>-->
-
     
 
     <!--Footer-->

@@ -721,17 +721,31 @@ footer {
 }
 
 .btn-send {
-  background-color: #f8d81b;
-  font-weight: 700;
-  color: #707070;
+  background-color: #7305ae;
+  font-weight: 600;
+  color: white;
   width: 100%;
   border: none;
   border-radius: 5px;
   padding: 10px 0;
 }
 
+.btn-send:hover {
+  background-color: #f8d81b;
+  color: #7305ae;
+}
+
 #mensaje {
   line-height: 17px;
+}
+
+.mail-sent {
+  background-color: #7ef5d9;
+  padding: 10px;
+  border-radius: 7px;
+  margin-top: 2em;
+  text-align: center;
+  font-weight: 400;
 }
 
 .image-bg-04 {
