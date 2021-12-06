@@ -148,7 +148,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  left: 420px;
+  left: 495px;
   top: 4.5em;
   overflow: hidden;
 }
@@ -869,6 +869,7 @@ footer {
 /*Modal-Freeblioteca*/
 .modal-footer {
   border-top: none;
+  padding: 0;
 }
 
 .btn-freeblioteca {
@@ -878,6 +879,7 @@ footer {
   font-weight: 600;
   font-size: 18px;
   padding: 0.6em 0;
+  margin: 1em 0;
 }
 
 .image-bg-05 {
