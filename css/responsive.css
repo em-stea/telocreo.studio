@@ -639,12 +639,24 @@ body {
   .text-team {
     font-size: 2.5em;
   }
+  .text-left-founder {
+    margin-left: 0;
+  }
+  .txt-bio-founders {
+    margin: auto;
+  }
+  .img-width-founders {
+    width: 85%;
+  }
   .img-width-team {
-    width: 45%;
+    width: 85%;
   }
   .padding-team-resp {
     padding: 0 20px;
     margin-bottom: 2em;
+  }
+  .txt-bio {
+    width: 100%;
   }
   .padding-priorities {
     padding-left: 20px;

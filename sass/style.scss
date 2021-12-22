@@ -121,7 +121,7 @@ body {
   @extend %module;
   line-height: 60px;
   display: flex;
-  left: 495px;
+  left: 440px;
   top: 4.5em;
   overflow: hidden;
 }
@@ -629,7 +629,7 @@ footer {
   width: 80%;
 }
 .padding-text-download {
-  padding-top: 0.5em;
+  padding-top: 0.1em;
 }
 
 /*Modal-Freeblioteca*/
@@ -1026,11 +1026,22 @@ footer {
   padding-left: 2em;
 }
 .img-width-founders {
-  width: 45%;
+  width: 55%;
 }
 .img-width-team {
+  width: 75%;
+}
+.txt-bio {
+  width: 80%;
+  margin: auto;
+}
+.txt-bio-founders {
   width: 90%;
 }
+.text-left-founder {
+  margin-left: auto;
+}
+
 .text-team {
   font-weight: 800;
   color: $colour-text-violet;
@@ -1043,6 +1054,7 @@ footer {
 }
 .carousel-inner {
   height: 470px;
+  margin-top: 6em;
 }
 .carousel-item {
   padding: 0;
