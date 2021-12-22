@@ -112,14 +112,6 @@ body {
 }
 
 /*Home*/
-.image-bg {
-  background-image: url(../img/bg-01.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: top left;
-}
-
 .box-home {
   position: relative;
   font-family: "Poppins", sans-serif;
@@ -127,6 +119,7 @@ body {
   font-weight: 700;
   text-align: left;
   color: white;
+  z-index: 15;
 }
 
 .box-home p, .box-text {
@@ -138,7 +131,7 @@ body {
 }
 
 .box-home p {
-  top: 5.8em;
+  top: 6.5em;
   margin: auto;
   width: 100%;
 }
@@ -621,7 +614,7 @@ footer {
   margin-top: -1em;
 }
 
-.box-coffee, .box-test, .box-test-3, .box-test-web {
+.box-coffee, .box-test, .box-test-web {
   padding: 2.5em 0em 0em 1em;
 }
 
@@ -883,20 +876,14 @@ footer {
   margin: 1em 0;
 }
 
-.image-bg-05 {
-  background-image: url(../img/bg-05.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-position: top left;
-}
-
 .box-test-3 {
   font-family: "Poppins", sans-serif;
   font-size: 60px;
   font-weight: 700;
   text-align: left;
   color: white;
+  z-index: 15;
+  padding: 3.5em 0 0 1em;
 }
 
 .text-orange {

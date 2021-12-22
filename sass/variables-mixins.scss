@@ -26,10 +26,11 @@ $colour-text-dark-grey: #5c5b5b;
 
 /*Img top responsive*/
 @mixin img-top-responsive {
-  background-size: cover;
+  background-size: contain;
   background-position: top center;
-  height: 65vh;
+  height: 20vh;
   margin-bottom: 3em;
+  padding: 0;
 }
 
 @mixin font-title {

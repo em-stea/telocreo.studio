@@ -96,13 +96,12 @@ body {
 }
 
 /*Home*/
-.image-bg {
-  background-image: url(../img/bg-01.png);
-  @include img-top;
+.ratio > * {
 }
 .box-home {
   position: relative;
   @include big-text;
+  z-index: 15;
 }
 %module {
   height: 59px;
@@ -113,7 +112,7 @@ body {
 }
 .box-home p {
   @extend %module;
-  top: 5.8em;
+  top: 6.5em;
   margin: auto;
   width: 100%;
 }
@@ -649,13 +648,10 @@ footer {
 }
 
 ///Digital-Agency.html///
-.image-bg-05 {
-  background-image: url(../img/bg-05.png);
-  @include img-top;
-}
 .box-test-3 {
   @include big-text;
-  @extend %module-padding;
+  z-index: 15;
+  padding: 3.5em 0 0 1em;
 }
 .text-orange {
   color: $colour-text-orange;
