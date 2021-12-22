@@ -225,6 +225,7 @@ p {
   @include img-long;
   margin-bottom: 1em;
   @include text-banner;
+  height: 500px;
 }
 .bg-conocenos h1 {
   font-weight: 800;
