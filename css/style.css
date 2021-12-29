@@ -438,10 +438,6 @@ p {
   margin-bottom: 0;
 }
 
-.contenedor-carrusel {
-  max-width: 1500px;
-}
-
 .carrusel {
   height: 320px;
   display: -webkit-box;
