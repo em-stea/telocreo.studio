@@ -183,6 +183,9 @@ p {
 .box-txt {
   padding: 0 3em;
 }
+.box-txt p {
+  font-size: 1.2em;
+}
 .title-quienes-somos {
   @include font-title;
   color: $colour-text-orange;
@@ -865,6 +868,10 @@ footer {
   padding-top: 4em;
   font-weight: 700;
   color: $colour-text-dark-grey;
+}
+.text-brand-colour {
+  color: $colour-text-orange;
+  font-weight: 700;
 }
 .text-green-brand {
   color: $colour-text-green;

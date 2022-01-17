@@ -252,6 +252,10 @@ p {
   padding: 0 3em;
 }
 
+.box-txt p {
+  font-size: 1.2em;
+}
+
 .title-quienes-somos {
   font-size: 3em;
   font-weight: 800;
@@ -1172,6 +1176,11 @@ footer {
   padding-top: 4em;
   font-weight: 700;
   color: #5c5b5b;
+}
+
+.text-brand-colour {
+  color: #f76809;
+  font-weight: 700;
 }
 
 .text-green-brand {
