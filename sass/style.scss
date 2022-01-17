@@ -37,6 +37,7 @@ body {
   z-index: 1000;
   background-color: $colour-text-white;
   font-size: 14px;
+  font-weight: 700;
 }
 .dropdown-toggle::after {
   color: $colour-text-green;
@@ -68,6 +69,7 @@ body {
 }
 .dropdown-menu a {
   color: #828282;
+  font-weight: 700;
 }
 
 /*Book a coffee*/
