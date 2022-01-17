@@ -1025,6 +1025,17 @@ footer {
 .img-width-team {
   width: 75%;
 }
+.btn-check:focus + .btn,
+.btn:focus {
+  box-shadow: none;
+}
+.btn-bio,
+.icon-keyboard_arrow_down {
+  color: $colour-text-green;
+}
+.name-title {
+  color: $colour-text-orange;
+}
 .txt-bio {
   width: 80%;
   margin: auto;
@@ -1033,6 +1044,9 @@ footer {
   width: 90%;
 }
 .text-left-founder {
+  margin-right: auto;
+}
+.text-right-founder {
   margin-left: auto;
 }
 

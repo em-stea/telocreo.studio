@@ -1373,6 +1373,21 @@ footer {
   width: 75%;
 }
 
+.btn-check:focus + .btn,
+.btn:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.btn-bio,
+.icon-keyboard_arrow_down {
+  color: #1cceb8;
+}
+
+.name-title {
+  color: #f76809;
+}
+
 .txt-bio {
   width: 80%;
   margin: auto;
@@ -1383,6 +1398,10 @@ footer {
 }
 
 .text-left-founder {
+  margin-right: auto;
+}
+
+.text-right-founder {
   margin-left: auto;
 }
 
