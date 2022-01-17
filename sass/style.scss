@@ -628,6 +628,12 @@ footer {
 .padding-text-download {
   padding-top: 0.1em;
 }
+.icon-freeblioteca {
+  width: 30%;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
 
 /*Modal-Freeblioteca*/
 .modal-footer {
@@ -1085,6 +1091,7 @@ footer {
 }
 .box-text-team {
   background-image: url(../img/bg-our-team-color-2.jpg);
+  background-position: center;
   font-size: 32px;
   text-align: center;
 }
