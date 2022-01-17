@@ -233,6 +233,11 @@ p {
 }
 
 /*En que nos destacamos*/
+.first-line {
+  font-weight: 700;
+  font-size: 1.5em;
+  color: $colour-text-green;
+}
 .box-highlight {
   text-align: center;
   margin: 4em 0;
@@ -302,15 +307,19 @@ p {
 }
 .bg-business p {
   text-align: center;
-  font-size: 20px;
-  font-weight: 500;
-  color: $colour-text-grey;
+  font-size: 1.7em;
+  font-weight: 700;
+  color: $colour-text-violet;
+  text-transform: uppercase;
 }
 
 /*Carousel Client*/
 .bg-creativity {
   text-align: center;
   color: $colour-text-violet;
+}
+.colour-highlight {
+  color: $colour-text-orange;
 }
 /*.bg-client {
   text-align: center;
@@ -320,8 +329,9 @@ p {
   padding-bottom: 20em;
 }*/
 .title-client {
-  padding: 2em 0 0.5em 0;
-  font-size: 1.8em;
+  padding: 2em 0 2em 0;
+  font-size: 2em;
+  color: $colour-text-dark-grey;
   margin-bottom: 0;
 }
 .carrusel {
