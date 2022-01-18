@@ -383,8 +383,13 @@ p {
 }
 
 .card-text {
+  font-size: 20px;
   color: #7305ae;
   font-weight: 700;
+}
+
+.font-subtitle {
+  font-size: 17px;
 }
 
 .text-block {
@@ -710,7 +715,7 @@ footer {
 
 .text-grey {
   color: #707070;
-  font-weight: 800;
+  font-weight: 700;
 }
 
 .picture-test {

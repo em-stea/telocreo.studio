@@ -98,8 +98,6 @@ body {
 }
 
 /*Home*/
-.ratio > * {
-}
 .box-home {
   position: relative;
   @include big-text;
@@ -285,8 +283,12 @@ p {
   text-align: left;
 }
 .card-text {
+  font-size: 20px;
   color: $colour-text-violet;
   font-weight: 700;
+}
+.font-subtitle {
+  font-size: 17px;
 }
 .text-block {
   font-size: 18px;
@@ -521,7 +523,7 @@ footer {
 }
 .text-grey {
   color: $colour-text-grey;
-  font-weight: 800;
+  font-weight: 700;
 }
 .picture-test {
   width: 85%;
