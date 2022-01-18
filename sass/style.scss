@@ -18,7 +18,7 @@
   padding: 0;
 }
 body {
-  font-size: 16px;
+  font-size: 18px;
   color: #828282;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
@@ -254,6 +254,9 @@ p {
   margin: auto;
   margin-bottom: 0.5em;
 }
+.box-highlight p {
+  font-size: 18px;
+}
 .text-bold {
   color: $colour-text-red;
   font-weight: 700;
@@ -286,7 +289,7 @@ p {
   font-weight: 700;
 }
 .text-block {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 /*Row Business*/
@@ -579,6 +582,9 @@ footer {
 .box-text-align-left {
   text-align: left;
 }
+.box-text-align-left p {
+  font-size: 18px;
+}
 .picture-freeblioteca {
   width: 95%;
 }
@@ -622,6 +628,7 @@ footer {
 }
 .description-download {
   margin-bottom: 2em;
+  font-size: 18px;
 }
 .btn-download:hover {
   background-color: $colour-text-orange;
@@ -685,6 +692,9 @@ footer {
   font-weight: 800;
   color: $colour-text-violet;
   margin-bottom: 0;
+}
+.box-text-align p {
+  font-size: 18px;
 }
 .arrow-animation {
   margin: 1em 0;
@@ -929,6 +939,7 @@ footer {
 }
 .text-grey-lab {
   color: $colour-text-dark-grey;
+  font-size: 18px;
 }
 .picture-lab {
   width: 65%;
@@ -996,6 +1007,7 @@ footer {
 .text-about {
   width: 80%;
   margin: auto;
+  font-size: 18px;
 }
 
 ////Our-team.html///
@@ -1007,6 +1019,7 @@ footer {
 .text-grey-light {
   color: $colour-text-grey;
   margin-bottom: 1em;
+  font-size: 18px;
 }
 .bg-light-grey {
   color: #eeeeee;
