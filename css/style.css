@@ -262,8 +262,9 @@ p {
   font-size: 3em;
   font-weight: 800;
   color: #f76809;
-  margin-bottom: 1em;
+  margin-bottom: 0;
   margin-top: 1em;
+  text-align: center;
 }
 
 .text-quienes-somos {
@@ -273,6 +274,7 @@ p {
 
 .text-quienes-somos p {
   padding-top: 24px;
+  text-align: center;
 }
 
 .text-quienes-somos strong {
@@ -352,7 +354,7 @@ p {
 }
 
 .text-bold {
-  color: #ff0000;
+  color: #1cceb8;
   font-weight: 700;
 }
 
@@ -1202,8 +1204,12 @@ footer {
 }
 
 .text-brand-colour {
-  color: #1cceb8;
+  color: #707070;
   font-weight: 700;
+}
+
+.text-brand-colour-2 {
+  color: #1cceb8;
 }
 
 .text-green-brand {

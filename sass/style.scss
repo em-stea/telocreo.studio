@@ -189,8 +189,9 @@ p {
 .title-quienes-somos {
   @include font-title;
   color: $colour-text-orange;
-  margin-bottom: 1em;
+  margin-bottom: 0;
   margin-top: 1em;
+  text-align: center;
 }
 .text-quienes-somos {
   margin-bottom: 7em;
@@ -198,6 +199,7 @@ p {
 }
 .text-quienes-somos p {
   padding-top: 24px;
+  text-align: center;
 }
 .text-quienes-somos strong {
   color: $colour-text-violet;
@@ -259,7 +261,7 @@ p {
   font-size: 18px;
 }
 .text-bold {
-  color: $colour-text-red;
+  color: $colour-text-green;
   font-weight: 700;
 }
 .box-highlight .text-highlight {
@@ -887,8 +889,11 @@ footer {
   color: $colour-text-dark-grey;
 }
 .text-brand-colour {
-  color: $colour-text-green;
+  color: $colour-text-grey;
   font-weight: 700;
+}
+.text-brand-colour-2 {
+  color: $colour-text-green;
 }
 .text-green-brand {
   color: $colour-text-green;
