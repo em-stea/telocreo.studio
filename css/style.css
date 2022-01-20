@@ -1236,6 +1236,10 @@ footer {
   font-weight: 800;
 }
 
+.text-ordenamos {
+  text-transform: uppercase;
+}
+
 .image-bg-08 {
   background-image: url(../img/bg-08.png);
   background-size: contain;
