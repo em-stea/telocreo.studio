@@ -178,7 +178,7 @@ p {
 /*Quienes Somos*/
 .margin-container-home {
   padding: 0 80px;
-  margin-top: -50px;
+  margin-top: 1px;
 }
 .box-txt {
   padding: 0 3em;
@@ -202,6 +202,7 @@ p {
 .text-quienes-somos strong {
   color: $colour-text-violet;
   font-weight: 800;
+  font-size: 1.3em;
 }
 .text-quienes-somos span {
   color: $colour-text-red;
@@ -238,8 +239,10 @@ p {
 /*En que nos destacamos*/
 .first-line {
   font-weight: 700;
-  font-size: 1.5em;
-  color: $colour-text-green;
+  font-size: 1.6em !important;
+  color: $colour-text-grey;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 .box-highlight {
   text-align: center;
