@@ -19,7 +19,7 @@ body {
   }
   .box-home p {
     font-size: 22px;
-    top: 5.1em;
+    top: 2.8em;
   }
   .box-text {
     text-align: center;
@@ -86,7 +86,7 @@ body {
   .box-home p {
     font-size: 25px;
     position: absolute;
-    top: 130px;
+    top: 79px;
     text-align: center;
     padding: 0 30px;
   }
@@ -143,11 +143,11 @@ body {
     height: 26px;
     font-size: 25px;
     line-height: 25px;
-  }
+  }/*
   .box-home p {
     font-size: 25px;
     top: 146px;
-  }
+  }*/
   @keyframes rotator-text {
     0% {
       margin-top: 0;
@@ -190,6 +190,15 @@ body {
     }
   }
 }
+@media screen and (min-width: 501px) and (max-width: 540px) {
+  .box-home p {
+    font-size: 25px;
+    top: 77px;
+  }  
+  .box-text ul{
+    padding-left: 29px;
+  }
+}
 @media screen and (min-width: 541px) and (max-width: 600px) {
   /*Home*/
   .box-text {
@@ -203,7 +212,10 @@ body {
   }
   .box-home p {
     font-size: 25px;
-    top: 146px;
+    top: 77px;
+  }
+  .box-text ul{
+    padding-left: 29px;
   }
   @keyframes rotator-text {
     0% {
@@ -762,6 +774,16 @@ body {
   /*Social-Bar*/
   .social-bar {
     top: 50%;
+  }
+}
+@media screen and (min-width: 606px) and (max-width: 1200px) {
+  .box-home p{
+    font-size: 3rem;
+    top: 2em;
+  }
+  .box-text{
+    top: 2.5em;
+    left: 77px;
   }
 }
 @media screen and (min-width: 571px) and (max-width: 1200px) {

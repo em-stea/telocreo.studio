@@ -112,7 +112,8 @@ body {
 }
 .box-home p {
   @extend %module;
-  top: 6.5em;
+  //top: 6.5em;
+  top: 3em;
   margin: auto;
   width: 100%;
 }
