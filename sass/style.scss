@@ -227,7 +227,7 @@ p {
 
 /*Row Conocenos*/
 .bg-conocenos {
-  background-image: url(../img/bg-slider-01.jpg);
+  background-image: url(../img/bg-slider-01.webp);
   @include img-long;
   margin-bottom: 1em;
   @include text-banner;
@@ -302,7 +302,7 @@ p {
 
 /*Row Business*/
 .bg-business {
-  background-image: url(../img/bg-slider-02.jpg);
+  background-image: url(../img/bg-slider-02.webp);
   @include img-long;
   //padding: 160px 0 30px 0;
   margin-top: 7em;
@@ -405,9 +405,20 @@ footer {
 .contact-icons a:hover {
   color: $colour-text-violet;
 }
-.ig-profile-image {
+.container-ig-profile{
   width: 40%;
+  &:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in;
+   }
+}
+
+.ig-profile-image {
   margin-top: 1em;
+  transform: scale(1);
+  &:hover{
+    transition: transform 0.3s ease-in;
+   }
 }
 .copyright {
   background-color: $colour-text-light-orange;
@@ -469,7 +480,7 @@ footer {
 
 ///coffee-page.html///
 .image-bg-02 {
-  background-image: url(../img/bg-02.png);
+  background-image: url(../img/bg-02.webp);
   @include img-top;
   margin-top: -1em;
 }
@@ -573,7 +584,7 @@ footer {
 
 ///Freeblioteca.html///
 .image-bg-04 {
-  background-image: url(../img/bg-04.png);
+  background-image: url(../img/bg-04.webp);
   @include img-top;
 }
 .box-test-freeblioteca {
@@ -600,7 +611,7 @@ footer {
   padding-left: 9em;
 }
 .bg-download {
-  background-image: url(../img/bg-slider-03.jpg);
+  background-image: url(../img/bg-slider-03.webp);
   @include img-long;
   margin-bottom: 1em;
   @include text-banner;
@@ -795,7 +806,7 @@ footer {
 
 .bg-agency {
   text-align: center;
-  background-image: url(../img/bg-agency.png);
+  background-image: url(../img/bg-agency.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 65vh;
@@ -819,7 +830,7 @@ footer {
   margin-top: 2em;
 }
 .image-bg-06 {
-  background-image: url(../img/bg-06.png);
+  background-image: url(../img/bg-06.webp);
   @include img-top;
 }
 .text-red {
@@ -833,7 +844,7 @@ footer {
 .bg-web {
   text-align: center;
   color: $colour-text-violet;
-  background-image: url(../img/bg-web.png);
+  background-image: url(../img/bg-web.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 65vh;
@@ -859,7 +870,7 @@ footer {
 
 ///Creative-Brand.html///
 .image-bg-07 {
-  background-image: url(../img/bg-07.png);
+  background-image: url(../img/bg-07.webp);
   @include img-top;
   background-color: #eeeeee;
 }
@@ -921,7 +932,7 @@ footer {
   text-transform: uppercase;
 }
 .image-bg-08 {
-  background-image: url(../img/bg-08.png);
+  background-image: url(../img/bg-08.webp);
   @include img-top;
   background-color: #eeeeee;
 }
@@ -975,7 +986,7 @@ footer {
 .bg-why {
   text-align: center;
   color: $colour-text-violet;
-  background-image: url(../img/bg-about-us.jpg);
+  background-image: url(../img/bg-about-us.webp);
   background-size: cover;
   height: 520px;
 }
@@ -995,7 +1006,7 @@ footer {
   font-size: 2.5em;
 }
 .bg-about-2 {
-  background-image: url(../img/bg-about-us-2.jpg);
+  background-image: url(../img/bg-about-us-2.webp);
   @include img-long;
   margin-bottom: -5.3em;
   color: $colour-text-white;
@@ -1026,7 +1037,7 @@ footer {
 
 ////Our-team.html///
 .image-bg-10 {
-  background-image: url(../img/bg-10.png);
+  background-image: url(../img/bg-10.webp);
   @include img-top;
   background-color: #eeeeee;
 }
@@ -1136,13 +1147,13 @@ footer {
   width: 65%;
 }
 .box-text-team {
-  background-image: url(../img/bg-our-team-color-2.jpg);
+  background-image: url(../img/bg-our-team-color-2.webp);
   background-position: center;
   font-size: 32px;
   text-align: center;
 }
 .bg-text-team {
-  background-image: url(../img/bg-our-team-color.jpg);
+  background-image: url(../img/bg-our-team-color.webp);
   @include img-long;
   padding: 3.2em !important;
 }
@@ -1171,11 +1182,11 @@ footer {
 
 ////Previous-assignments.html///
 .image-bg-11 {
-  background-image: url(../img/bg-11.png);
+  background-image: url(../img/bg-11.webp);
   @include img-top;
 }
 .bg-start {
-  background-image: url(../img/bg-previous-assignments.png);
+  background-image: url(../img/bg-previous-assignments.webp);
   @include img-long;
   margin-bottom: -5.3em;
 }

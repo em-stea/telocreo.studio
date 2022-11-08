@@ -638,7 +638,7 @@ body {
   .bg-agency {
     text-align: center;
     color: #7305ae;
-    background-image: url(../img/bg-agency-adaptable.png);
+    background-image: url(../img/bg-agency-adaptable.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     height: 55vh;
@@ -656,7 +656,7 @@ body {
   .bg-web {
     text-align: center;
     color: #7305ae;
-    background-image: url(../img/bg-web-adaptable.png);
+    background-image: url(../img/bg-web-adaptable.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     height: auto;
@@ -920,7 +920,7 @@ body {
     margin-top: 2.5em;
   }
   .bg-start {
-    background-image: url(../img/bg-previous-assignments-adaptable.png);
+    background-image: url(../img/bg-previous-assignments-adaptable.webp);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top left;
@@ -938,7 +938,7 @@ body {
     margin-bottom: 3.5em;
   }
   /*Footer*/
-  .ig-profile-image {
+  .container-ig-profile {
     width: 50%;
   }
   .text-contact {

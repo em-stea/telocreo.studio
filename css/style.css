@@ -295,7 +295,7 @@ p {
 
 /*Row Conocenos*/
 .bg-conocenos {
-  background-image: url(../img/bg-slider-01.jpg);
+  background-image: url(../img/bg-slider-01.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top left;
@@ -392,7 +392,7 @@ p {
 
 /*Row Business*/
 .bg-business {
-  background-image: url(../img/bg-slider-02.jpg);
+  background-image: url(../img/bg-slider-02.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top left;
@@ -518,9 +518,20 @@ footer {
   color: #7305ae;
 }
 
-.ig-profile-image {
+.container-ig-profile {
   width: 40%;
+}
+.container-ig-profile:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease-in;
+}
+
+.ig-profile-image {
   margin-top: 1em;
+  transform: scale(1);
+}
+.ig-profile-image:hover {
+  transition: transform 0.3s ease-in;
 }
 
 .copyright {
@@ -592,7 +603,7 @@ footer {
 }
 
 .image-bg-02 {
-  background-image: url(../img/bg-02.png);
+  background-image: url(../img/bg-02.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -727,7 +738,7 @@ footer {
 }
 
 .image-bg-04 {
-  background-image: url(../img/bg-04.png);
+  background-image: url(../img/bg-04.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -771,7 +782,7 @@ footer {
 }
 
 .bg-download {
-  background-image: url(../img/bg-slider-03.jpg);
+  background-image: url(../img/bg-slider-03.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top left;
@@ -1027,7 +1038,7 @@ footer {
 
 .bg-agency {
   text-align: center;
-  background-image: url(../img/bg-agency.png);
+  background-image: url(../img/bg-agency.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 65vh;
@@ -1057,7 +1068,7 @@ footer {
 }
 
 .image-bg-06 {
-  background-image: url(../img/bg-06.png);
+  background-image: url(../img/bg-06.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1077,7 +1088,7 @@ footer {
 .bg-web {
   text-align: center;
   color: #7305ae;
-  background-image: url(../img/bg-web.png);
+  background-image: url(../img/bg-web.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 65vh;
@@ -1107,7 +1118,7 @@ footer {
 }
 
 .image-bg-07 {
-  background-image: url(../img/bg-07.png);
+  background-image: url(../img/bg-07.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1185,7 +1196,7 @@ footer {
 }
 
 .image-bg-08 {
-  background-image: url(../img/bg-08.png);
+  background-image: url(../img/bg-08.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1254,7 +1265,7 @@ footer {
 .bg-why {
   text-align: center;
   color: #7305ae;
-  background-image: url(../img/bg-about-us.jpg);
+  background-image: url(../img/bg-about-us.webp);
   background-size: cover;
   height: 520px;
 }
@@ -1280,7 +1291,7 @@ footer {
 }
 
 .bg-about-2 {
-  background-image: url(../img/bg-about-us-2.jpg);
+  background-image: url(../img/bg-about-us-2.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top left;
@@ -1318,7 +1329,7 @@ footer {
 }
 
 .image-bg-10 {
-  background-image: url(../img/bg-10.png);
+  background-image: url(../img/bg-10.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1455,14 +1466,14 @@ footer {
 }
 
 .box-text-team {
-  background-image: url(../img/bg-our-team-color-2.jpg);
+  background-image: url(../img/bg-our-team-color-2.webp);
   background-position: center;
   font-size: 32px;
   text-align: center;
 }
 
 .bg-text-team {
-  background-image: url(../img/bg-our-team-color.jpg);
+  background-image: url(../img/bg-our-team-color.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top left;
@@ -1499,7 +1510,7 @@ footer {
 }
 
 .image-bg-11 {
-  background-image: url(../img/bg-11.png);
+  background-image: url(../img/bg-11.webp);
   background-size: contain;
   background-repeat: no-repeat;
   height: 100vh;
@@ -1507,7 +1518,7 @@ footer {
 }
 
 .bg-start {
-  background-image: url(../img/bg-previous-assignments.png);
+  background-image: url(../img/bg-previous-assignments.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: top left;
